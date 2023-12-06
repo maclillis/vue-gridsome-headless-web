@@ -1,0 +1,116 @@
+.header-bg {
+    backdrop-filter: blur(19px);
+    background-color: rgba(250, 250, 250, 0.8);
+    box-shadow: 0 5px 19px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 0;
+}
+
+.desktop-menu-black {
+    color: $black !important;
+}
+
+.mf-logo-smaller {
+    animation: smallAnimation forwards 0.2s ease-out;
+    -moz-animation: smallAnimation forwards 0.2s ease-out;
+    -webkit-animation: smallAnimation forwards 0.2s ease-out;
+}
+
+.loc-blk {
+    color: $deepGrey !important;
+}
+
+.ham-white {
+    .hamburger-box {
+        .hamburger-inner {
+            background-color: $black;
+
+            &::before, &::after {
+                background-color: $black;
+            }
+        }
+    }
+}
+
+@keyframes smallAnimation {
+    0%   {transform: scale(1);
+        -webkit-transform: scale(1);}
+    100% {transform: scale(.8);
+        -webkit-transform: scale(.8);}
+}
+
+.sub-page, .after-show{
+    header {
+        backdrop-filter: blur(19px);
+        background-color: rgba(250, 250, 250, 0.8);
+        box-shadow: 0 5px 19px 0 rgba(0, 0, 0, 0.1);
+        margin-top: 0;
+    }
+
+    .inner {
+        .Desktop--menu-wrap {
+            .Desktop--menu-inner {
+                .Desktop--menu-left {
+                    .Desktop--menu-logo {
+                        .mf-deskt-logo-svg-w {
+                            display: none;
+                        }
+                        .mf-deskt-logo-svg-b {
+                            display: flex;
+                            width: 200px;
+                        }
+                    }
+                }
+                .Desktop--menu-right {
+                    .Desktop--menu--nav-wrap {
+                        .nav-link {
+                            color: $black; 
+
+                            &::before {
+                                display: none;
+                            }
+                        }
+
+                        .has-items {
+                            .sub-ddown-wrap {
+                                &::before {
+                                    content: '';
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .Mobile--menu-wrap {
+            .Mobile--menu-left {
+                .hamburger-box {
+                    .hamburger-inner {
+                        background-color: $black;
+            
+                        &::before, &::after {
+                            background-color: $black;
+                        }
+                    }
+                }
+            }
+            .Mobile--menu-center {
+                .mf-logo-svg-w {
+                    display: none;
+                }
+
+                .mf-logo-svg-b {
+                    display: flex;
+                }
+            }
+            .Mobile--menu-right {
+                .Local--selector {
+                    .local-sel {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}

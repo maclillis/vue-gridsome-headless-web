@@ -1,0 +1,93 @@
+.footer {
+    height: auto;
+    background-color: $deepGrey;
+    color: $grey;
+
+    .inner {
+
+        padding-top: 50px;
+        
+        .grid {
+            .cols {
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        line-height: 18px;
+
+                        &::before {
+                            content: '';
+                            display: none;
+                        }
+                    }
+                }
+                a {
+                    color: $grey;
+                    font-weight: 600;
+                }
+                h4 {
+                    font-style: normal;
+                    margin: 0;
+                    color: $grey;
+                    font-weight: 400;
+                }
+                .footer-adress-list {
+                    li {
+                        padding: 5px 0;
+                    }
+                }
+                .socials {
+                    a {
+                        text-decoration: none;
+                        li {
+                            padding-right: 35px;
+                            .fa-facebook {
+                                font-size: 52px !important;
+
+                                @media (min-width: $mid-width) {
+                                    font-size: 40px !important;
+                                }
+                            }
+                            .fab {
+                                font-size: 60px;
+                                text-decoration: none;
+
+                                @media (min-width: $mid-width) {
+                                    font-size: 48px ;
+                                }
+                            }
+                            h5 {
+                                font-size: 17px;
+                                margin: 0;
+                                padding-left: 10px;
+                                text-transform: none;
+                            }
+                        }
+                    }
+                }
+                .app-stores {
+                    #app-icon-ap {
+                        width: 147px;
+
+                        @media (min-width: $mid-width) {
+                            width: 127px;
+                        }
+                    }
+                    #app-icon-go {
+                        width: 170px;
+
+                        @media (min-width: $mid-width) {
+                            width: 150px;
+                        }
+                    }
+                }
+
+                .copyright-text {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

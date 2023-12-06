@@ -1,0 +1,35 @@
+.notfound-wrap {
+    margin: $sm-mgn-tp 0;
+    padding: 0 $sm-pdd;
+
+    @media (min-width: $mid-width) {
+        padding: 0;
+    }
+
+    .section-title {
+        margin: 10px 0;
+    }
+
+    h4 {
+        font-style: normal;
+    }
+
+    .back-page {
+
+        font-size: 22px;
+
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+
+        color: $black;
+
+        h5 {
+            margin-left: 10px;
+            font-size: 18px;
+            text-transform: none;
+        }
+    }
+}

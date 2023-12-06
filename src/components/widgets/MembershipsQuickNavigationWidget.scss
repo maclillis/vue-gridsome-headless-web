@@ -1,0 +1,86 @@
+.membership-quicks-block-wrap {
+
+    .membership-quicks-block-inner {
+        margin: 0;
+        padding: 75px 0;
+
+        @media (max-width: $mid-width) {
+            padding: 0 $sm-pdd;
+            margin: 0 0 100px 0;
+        }
+
+        .under-title {
+            font-style: normal;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 25px;
+
+            @media (max-width: $mid-width) {
+                font-size: 25px;
+            }
+        }
+
+        .quick-grid {
+
+            .quick-col {
+                width: 100%;
+                height: 150px;
+                position: relative;
+                background-size: cover;
+
+                .quick-ovly {
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0,0,0,0.3);
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .quick-bg {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                a {
+                    width: 100%;
+                    height: 100%;
+                    .quick-title {
+                        font-weight: 500;
+                        color: $white;
+                        z-index: 10;
+                        text-align: center;
+                        font-size: 17px;
+                        font-style: normal;
+                        line-height: normal;
+                        text-shadow: 0px 0px 20px $black;
+
+                        @media (max-width: $mid-width) {
+                            font-size: 19px;
+                        }
+                    }
+                }
+
+                .active {
+                    position: relative;
+                    .quick-ovly {
+                        background-color: rgba(0,0,0,0.7);
+                        box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        -webkit-box-sizing: border-box;
+                        border-bottom: 4px solid $orange;
+
+                        @media (max-width: $sm-width) {
+                            border-left: 13px solid $orange;
+                            border-bottom: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,122 @@
+.newsletter-block {
+    .newsletter-block-inner {
+        margin: 0;
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+    }
+
+    .newsletter-block-wide {
+
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/newsletter-mama-lighter.jpg');
+        background-color: $orange;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 43%;
+        height: 50vh;
+
+        @media (max-width: $mid-width) {
+            background-position: 66% 43%;        
+        }
+
+        @media (max-width: $sm-width) {
+            height: 50vh;
+            background-position: 100% 43%;        
+        }
+
+        @media (max-width: $xsm-width) {
+            height: 63vh;
+            background-position: 88% 43%; 
+        }
+
+        .far {
+            color: $white;
+            font-size: 70px;
+            text-align: center;
+            padding-bottom: 40px;
+        }
+
+        .newsletter-block-wide-inner {
+
+            height: 100%;
+
+            padding: 80px $sm-pdd;
+
+            @media (min-width: $mid-width) {
+                padding: 0;
+            }
+
+            @media (max-width: $sm-width) {
+                padding: 0 $sm-pdd;
+            }
+
+
+            .form {
+                height: 100%;
+                .form--email {
+                    font-size: 16px;
+                    box-shadow: inset 0px 1px 5px #dedede;
+                    text-align: center;
+                    padding: 17px 0;
+
+                    &::placeholder {
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+                .btn--primary {
+                    width: 266px;
+                    padding: 18px 0px;
+                    margin: 20px auto;
+
+                    @media (max-width: $mid-width) {
+                        width: 100%;
+                    }
+                }
+
+                .loading-form {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                .sucess-holder {
+                    padding: 30px;
+
+                    .sucess-heading {
+                        font-weight: 600;
+                        margin: 0;
+                    }
+    
+                    .sucess-text {
+                        font-weight: 300;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .newsletter-block-holder {
+                align-self: flex-end;
+                .under-title {
+                    color: $deepGrey !important;
+                    font-style: normal;
+                    line-height: 32px;
+                    font-size: 21px;
+                    text-align: center;
+                    padding: 0 0 20px;
+                    font-weight: 600;
+
+                    @media (max-width: $mid-width) {
+                        font-size:17px;
+                        line-height: 23px;
+                    }
+
+                    @media (max-width: $sm-width) {
+                        justify-content: space-evenly;
+                    }
+                }
+            }
+        }
+    }
+}

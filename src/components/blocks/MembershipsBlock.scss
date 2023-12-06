@@ -1,0 +1,189 @@
+@import url("https://storage.googleapis.com/mammafitness/public/web/libs/vue-simple-accordion.css");
+
+.memberships-block-wrap {
+
+    .memberships-block-inner {
+
+        margin: 40px 0;
+
+        .section-title {
+            padding: 0 $sm-pdd;
+
+            @media (min-width: $mid-width) {
+                padding: 0;
+            }
+        }
+
+        .vsa-list {
+            display: grid;
+        }
+
+        .memberships-card-wrap {
+
+            --vsa-max-width: 100%;
+            --vsa-min-width: 100%;
+            --vsa-text-color: rgba(55, 55, 55, 1);
+            --vsa-highlight-color: transparent;
+            --vsa-bg-color: transparent;
+            --vsa-border-color: rgba(0, 0, 0, 0.2);
+            --vsa-border-width: 0px;
+            --vsa-border-style: solid;
+            --vsa-heading-padding: 0 20px;
+            --vsa-content-padding: 0 20px;
+            --vsa-default-icon-size: 0.4;
+
+            .memberships-card {
+
+                background-color: $white;
+                box-shadow: 1px 1px 3px #d9d9d9;
+                margin: 0 20px;
+                display: flex !important;
+                flex-direction: column;
+                //opacity: 0;
+
+                @media (min-width: $mid-width) {
+                    margin: 0;
+                }
+
+                .vsa-item__heading {
+
+                    .vsa-item__trigger {
+                        width: 100%;
+                        display: flex !important;
+                        justify-content: space-between !important;
+                        position: relative;
+
+                        .memberships-title {
+                            font-size: 22px;
+                            font-weight: 400;
+                            font-style: normal;
+                            margin: 24px 0;
+                            line-height: 25px;
+                            text-align: left;
+                            color: $black;
+
+                            @media (max-width: $mid-width) {
+                                font-size: 20px;
+                            }
+                        }
+
+                        .best-valued {
+                            position: absolute;
+                            z-index: 10;
+                            right: 41px;
+                            top: -16px;
+                            width: 37px;
+
+                            @media (min-width: $mid-width) {
+                                width: 50px;
+                            }
+
+                            @media (max-width: $sm-width) {
+                                right: 73px;
+                                top: -2px;
+                            }
+                        }
+
+                        .vsa-item__trigger__icon {
+
+                            @media (min-width: $sm-width) {
+                                display: none;
+                            }
+                            margin: 0 !important;
+                        }
+                    }
+
+                }
+
+                .vsa-item__content {
+
+                    padding: 0;
+
+                    .memberships-intro {
+                        margin: 5px 20px 10px;
+                        line-height: 22px;
+                        padding: 10px 0;
+                        font-size: 16px;
+                    }
+
+                    .memberships-points {
+                        padding: 0 35px 30px 35px;
+                        font-weight: 300;
+                        margin-left: 17px;
+
+                        li {
+                            padding: 3px 0;
+                            line-height: 22px;
+                            list-style-position: inside;
+                            text-indent: -0.6em;
+        
+                            &::before {
+                                left: 9px;
+                                top: -7px;
+                                width: 7px;
+                                height: 14px;
+                                border: solid $orange;
+                                border-width: 0 3px 3px 0;
+                                transform: rotate(45deg);
+                                margin-right: 1em;
+                                -webkit-transform: rotate(45deg);
+                                -ms-transform: rotate(45deg);
+                                content: '';
+                            }
+                        }
+                    }
+
+                    .memberships-points-date {
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: 20px;
+
+                        @media (max-width: $xsm-width) {
+                            font-size: 17px;
+                        }
+                    }
+
+                    .memberships-bottom {
+                        background-color: $orange;
+
+                        .memberships-cta {
+                            margin: 0;
+                            padding: 10px 0;
+                            font-size: 16px;
+                            text-align: center;
+                            text-transform: none;
+                            color: $white;
+                            font-weight: 600;
+
+                            .fas {
+                                padding-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .vsa-item--is-active {
+                .vsa-item__heading {
+
+                    @media (min-width: $mid-width) {
+                        pointer-events: none;
+                    }
+                    .vsa-item__trigger {
+                        .vsa-item__trigger__content {
+                            .memberships-title {
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .button-wrap {
+            padding: 30px $sm-pdd;
+        }
+
+    }
+
+}

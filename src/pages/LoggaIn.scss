@@ -1,0 +1,29 @@
+.my-account-wrap {
+    margin: $sm-mgn-tp 0;
+    padding: 0;
+
+    .section-title {
+        padding: 0;
+        margin-bottom: 5px;
+
+        @media (max-width: $mid-width) {
+            padding: 0 $sm-pdd;
+            margin-bottom: 10px;
+        }
+    }
+
+    .my-account-iframe-wrap {
+        position: relative;
+
+        padding: 0;
+
+        @media (max-width: $mid-width) {
+            padding: 0 $sm-pdd;
+        }
+
+        #my-acoount-iframe  {
+            width: 100%;
+        }
+    }
+
+}

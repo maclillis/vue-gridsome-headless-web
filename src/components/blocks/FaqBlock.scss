@@ -1,0 +1,80 @@
+.faq-section {
+    .faq-section-inner {
+        margin: 40px 0;
+        padding: 0 $sm-pdd;;
+
+        .toggle-wrap {
+
+            padding-bottom: 15px;
+
+            .--drawer {
+                background-color: $white;
+                /*opacity: 0;
+                transform: translate(-30px, 0px);
+                -webkit-transform: translate(-30px, 0px);
+                -moz-transform: translate(-30px, 0px);
+                -o-transform: translate(-30px, 0px);*/
+
+                p {
+                    padding-right: 10px;
+                }
+
+                &:active {  
+
+                    &:after {
+                        content: "-";
+                        font-weight: 300;
+                      }
+                }
+            }
+
+            .--panel {
+                background-color: $white;
+                top: 0;
+                padding: 0 140px 0 18px;
+                box-shadow: 0px 3px 5px rgba(70, 70, 70, 0.08);
+
+                @media (max-width: $mid-width) {
+                    padding: 0 50px 0 18px;
+                  }
+
+                .panel-content {
+                    p {
+                        font-size: 17px;
+                    }
+
+                    ol {
+                        li {
+                            font-size: 17px;
+                            font-weight: 300;
+                            padding: 0;
+                            line-height: 30px;
+                        }
+                    }
+
+                    ul {
+                        li {
+                            font-size: 17px;
+                            font-weight: 300;
+                            padding: 0;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .faq-further-more {
+            text-align: center;
+            font-style: normal;
+            line-height: normal;
+            font-size: 20px;
+            margin: 60px 0;
+
+            @media (max-width: $sm-width) {
+                font-size: 16px;
+                margin: 30px 0 60px;
+              }
+        }
+    }
+}

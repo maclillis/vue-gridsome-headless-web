@@ -1,0 +1,107 @@
+.general-wrap {
+    margin: $sm-mgn-tp 0;
+    padding: 0;
+
+    @media (max-width: $sm-width) {
+        padding: 0 $sm-pdd;
+    }
+
+    .section-title {
+        @media (max-width: $sm-width) {
+            margin: 0;
+        }
+    }
+
+    .general-content {
+        margin: 0 0;
+
+        @media (max-width: $sm-width) {
+            width: 100%;
+            margin: 0;
+        }
+    
+        strong {
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+
+            @media (max-width: $xsm-width) {
+                font-size: 22px;
+                line-height: 29px;
+                margin: 30px 0;
+            }
+        }
+    
+        h4 {
+            line-height: 32px;
+            font-style: normal;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        ol {                    
+            padding-left: 20px;
+            li {
+                font-size: 16px;
+                line-height: 27px;
+            }
+        }
+
+        figcaption {
+            padding-top: 10px;
+            font-style: italic;
+        }
+
+        .wp-block-columns {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+
+            @media (max-width: $mid-width) {
+                flex-direction: column;
+            }
+
+            .wp-block-column {
+                width: 60%;
+
+                @media (max-width: $mid-width) {
+                   width: 100%;
+                }
+
+                .wp-block-image {
+                    //padding-left: 40px;
+                    @media (max-width: $mid-width) {
+                        margin-top: 30px;
+                     }
+                }
+
+                img {
+                    width: 350px;
+
+                    @media (max-width: $mid-width) {
+                        width: 250px;
+                     }
+                }
+
+                p {
+                    &:first-child {
+                        margin-top: 0;
+                    }
+                }
+
+                &:last-child {
+                    width: 40%;
+                    text-align: center;
+
+                    @media (max-width: $mid-width) {
+                        text-align: left;
+                        width: 100%;
+                     }
+                }
+            }
+        }
+    }
+}

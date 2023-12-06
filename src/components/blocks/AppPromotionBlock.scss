@@ -1,0 +1,137 @@
+.app-promotion-block-wrap {
+    padding: 0;
+
+    .app-promotion-big-wide {
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/app-bg-orange.jpg');
+        background-size: cover;
+        background-position: 100%;
+
+        padding: 30px 0 60px;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+
+        .app-promotion-big-wide-inner {
+
+            @media (max-width: $mid-width) {
+                text-align: center;
+                padding: 0 $sm-pdd;
+            }
+
+            margin: 120px 0;
+
+            @media (max-width: $mid-width) {
+                margin: 0;
+            }
+
+            .section-row {
+                .section-col {
+
+                    .section-title {
+                        font-size: 32px;
+                        line-height: 42px;
+                        color: $black;
+                        margin-bottom: 0;
+                        margin-top: 60px;
+                        font-weight: 700;
+                        text-align: center;
+            
+                          @media (min-width: $mid-width) {
+                            font-size: 48px;
+                            line-height: 62px;
+                            margin: 0;
+                            text-align: left;
+                        }
+
+                        @media (max-width: $mid-width) {
+                            text-align: left;
+                            margin-top: 40px;
+                        }
+
+                        &::after {
+                            content: '';
+                            display: none;
+                        }
+                    }
+
+                    .section-paragraph {
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-style: italic;
+
+                        @media (max-width: $mid-width) {
+                            font-size: 17px;
+                            text-align: left;
+                        }
+                    }
+
+                    .copy-content {
+
+                        @media (max-width: $mid-width) {
+                            //padding: 0 $sm-pdd;
+                        }
+
+                        .app-badges-holder {
+
+                            margin-top: 50px;
+                            @media (min-width: $mid-width) {
+                                justify-content: center;
+                                margin: 0;
+                                padding: 40px 0;
+                                display: block;
+                            }
+
+                            @media (max-width: $mid-width) {
+                                margin: 40px auto;
+                            }
+
+                            @media (max-width: $sm-width) {
+                                margin-top: 0;
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            .app-store-icon {
+                                width: 195px;
+                                padding-right: 30px;
+
+                                @media (max-width: $mid-width) {
+                                    width: 170px;
+                                }
+
+                                @media (max-width: $sm-width) {
+                                    width: 170px;
+                                    padding-right: 0;
+                                    padding-bottom: 20px
+                                }
+                            }
+                            .google-store-icon {
+                                width: 220px;
+
+                                @media (max-width: $mid-width) {
+                                    width: 190px;
+                                }
+                            }
+                        }
+                    }
+    
+                  .element-container {
+                    .element-video {
+                      width: 512px;
+                      @media (max-width: $mid-width) {
+                            margin: 20px auto;
+                            width: 50%;
+                        }
+                        
+                        @media (max-width: $sm-width){
+                            padding:  0;
+                            width: 90%;
+                        }
+                    }
+                  }
+                }
+              }
+        }
+    }
+}

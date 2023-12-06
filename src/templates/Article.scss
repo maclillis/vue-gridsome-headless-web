@@ -1,0 +1,725 @@
+.article-wrap {
+
+    margin: $sm-mgn-tp 0 70px;
+
+    @media (max-width: $sm-width) {
+        width: 100%;
+
+        margin: 65px 0 0;
+    }
+
+    .article-breadcrumbs {
+        padding: 20px $sm-pdd !important;
+
+        @media (min-width: $mid-width) {
+            padding: 20px 0 !important;
+        }
+    }
+
+    .back-page {
+
+        font-size: 22px;
+
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+
+        color: $black;
+
+        h5 {
+            margin-left: 10px;
+            font-size: 18px;
+            text-transform: none;
+        }
+    }
+
+    .article-wrap-inner {
+        .article-col {
+
+            .article-featured-wrap {
+
+                .article-featured-image {
+        
+                    width: 100%;
+                    height: 250px;
+                    background-size: cover;
+                    -webkit-background-size:cover; 
+                    background-position: center;
+
+                    @media (max-width: $xsm-width) {
+                        height: 180px;
+                    }
+
+                    @media (min-width: $mid-width) {
+                        height: 620px;
+                    }
+                }
+        
+                .article-featured-image-info {
+        
+                    font-size: 14px;
+                    font-weight: 300;
+                    padding: 10px $sm-pdd;
+        
+                    .article-info-left {
+                        width: 50%;
+                    }
+        
+                    .article-info-right {
+                        width: 50%;
+                        text-align: right;
+                    }
+                }
+            }
+            
+            .article-title {
+                line-height: 44px;
+                padding: 0 $sm-pdd;
+                margin: 25px 0 20px 0;
+                font-weight: 300;
+
+                @media (max-width: $mid-width) {
+                    margin: 25px 0 10px;
+                    font-size: 31px;
+                    line-height: 35px;
+                }
+
+                @media (min-width: $mid-width) {
+                    padding: 0;
+                    font-size: 34px;
+                    margin-bottom: 12px;
+                }
+            }
+        
+            .article-info {
+                padding: 0 $sm-pdd;
+                font-size: 16px;
+                line-height: 18px;
+
+                @media (min-width: $mid-width) {
+                    padding: 0;
+                }
+
+                @media (max-width: $sm-width) {
+                    font-size: 14px;
+                }
+            }
+
+            .article-categories-wrap {
+                .article-category {
+                    padding: 0 $sm-pdd;
+                    margin: 0;
+
+                    @media (min-width: $mid-width) {
+                        padding: 0;
+                    }
+                    a {
+                        padding: 0;
+                        margin: 0;
+                        color: $deepGrey;
+                        font-size: 14px;
+                        text-transform: uppercase;
+
+                        p {
+                            font-weight: 600;
+                            margin-bottom: 0;
+                            font-size: 16px;
+
+                            @media (min-width: $mid-width) {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .article-tags-wrap {
+        
+                padding: 0 $sm-pdd $sm-pdd;
+
+                @media (min-width: $mid-width) {
+                    padding: 0 0 32px;
+                }
+        
+                .article-tag {
+                    background-color: $lighterOrange;
+                    padding: 10px;
+                    margin: 0 10px 10px 0;
+                    height: 100%;
+                    
+                    p {
+                        padding: 0;
+                        margin: 0;
+                        color: $orange;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                }
+
+                .tag-marker {
+                    align-self: center;
+                    margin: 0;
+                    line-height: 18px;
+                    padding-bottom: 10px;
+                    padding-right: 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+
+            .bolder {
+                font-weight: 600;
+            }
+
+            /*.promotional-ad-space-wrap {
+
+                width: 100%;
+                height: 180px;
+                border: none;
+                position: relative;
+
+                @media (max-width: $mid-width) {
+                    height: auto;
+                    justify-content: center;
+                }
+
+                .valentines-banner {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+
+                    @media (max-width: $mid-width) {
+                        position: static;
+                        height: auto;
+                        width: 100%;
+                        display: flex;
+                        align-self: center;
+                    }
+                }
+
+                @media (min-width: $mid-width) {
+                    border: 1px solid $grey;
+                }
+            }*/
+            .promotional-ad-space-wrap {
+                
+                a {
+                    color: $black;
+                }
+
+                width: 100%;
+                height: 180px;
+                background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/okt2021_herodesktop.jpg');
+                //background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/giftcard500_herodesktop.jpg');
+                background-size: cover;
+                background-position: 100%;
+                border-top: 1px solid $lightGrey;
+                border-bottom: 1px solid $lightGrey;
+
+                @media (min-width: $mid-width) {
+                    border-left: 1px solid $lightGrey;
+                    border-right: 1px solid $lightGrey;
+                }
+
+                .promotional-ad-space-inner {
+                    .promotional-right {
+                        .promotional-logo {
+                            width: 140px;
+                            margin-bottom: 5px;
+                        }
+                    .promotional-title {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 23px;
+                        text-align: center;
+                    }
+                    .button-holder {
+                        .smaller-btn {
+                            padding: 8px 0px;
+                            width: 100px;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                    }
+                    }
+                }  
+            }
+
+        
+            .article-content {
+                padding: 0 $sm-pdd;
+
+                @media (min-width: $mid-width) {
+                    padding: 0;
+                }
+
+                p {
+                    font-size: 17px;
+                }
+
+                em {
+                    font-style: italic;
+                }
+
+                strong {
+                    font-weight: 500 !important;
+                }
+
+                h3, h2 {
+                    line-height: 28px;
+                    font-size: 21px;
+                }
+
+                ul {
+                    li {
+                        line-height: normal;
+                        padding: 0;
+                    }
+                }
+
+                ol {
+                    font-size: 17px;
+                    padding-left: 20px;
+                }
+
+                figcaption {
+                    padding: 15px 0;
+                    line-height: 21px;
+                }
+
+                .wp-block-image {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                }
+
+                .is-resized {
+                    width: auto;
+                    height: auto;
+                }
+
+                h1, h2, h3, h4, h5 {
+
+                    margin: 30px 0;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                p {
+                    a {
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                p {
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .wp-block-video {
+                    video {
+                        width: 100%;
+                    }
+                }
+
+                .wp-block-columns {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+
+                    @media (max-width: $sm-width) {
+                        flex-direction: column;
+                    }
+
+                    .wp-block-column {
+                        padding: 0 10px;
+
+                        @media (max-width: $sm-width) {
+                            padding: 10px 0;
+                        }
+                    }
+                }
+
+            }
+
+            .article-modified {
+                color: $deepGrey;
+                margin: 40px 0;
+                text-align: left;
+                font-style: italic;
+                padding: 0;
+                font-size: 16px;
+                font-weight: 300;
+
+                @media (max-width: $sm-width) {
+                    padding: 0 $sm-pdd;
+                    font-size: 14px;
+                }
+            }
+        
+            .article-author-box {
+        
+                padding: 0 $sm-pdd;
+
+                @media (min-width: $mid-width) {
+                    padding: 0;
+                }
+        
+                .author-info {
+                    border-top: 1px solid $lightGrey;
+                    padding-top: 40px;
+                    .author-info-left {
+                        width: 150px;
+        
+                        .author-img {
+                            width: 150px;
+                            height: 150px;
+                            background-repeat: no-repeat;
+                            background-position: 50%;
+                            border-radius: 50%;
+
+                            @media (max-width: $sm-width) {
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+        
+                    }
+                    .author-info-right {
+                        width: 100%;
+                        padding-left: 30px;
+                        .author-info-name {
+                            font-size: 24px;
+                            font-style: normal;
+                            margin: 0;
+                            font-weight: 400;
+                            line-height: 28px;
+                        }
+        
+                        .author-info-occupation {
+                            font-weight: 300;
+                            text-transform: none;
+                            font-size: 15px;
+                            line-height: 18px;
+                            margin: 0;
+                            font-style: italic;
+                            padding-top: 6px;
+                        }
+
+                        .author-desktop-bio {
+                            font-weight: 300;
+                            padding-bottom: 10px;
+
+                            p {
+                                font-size: 16px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+
+                    .author-bio {
+                        font-weight: 300;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid $lightGrey;
+                    }
+                }
+
+                .author-bio {
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .section-title {
+                font-size: 22px;
+                line-height: 22px;
+                margin-bottom: 10px;
+                margin-top: 0;
+
+                @media (max-width: $sm-width) {
+                    text-align: center;
+                    line-height: 30px;
+                    margin: 0;
+                    font-size: 24px;
+                }
+
+                &::after {
+                    display: none;
+                }
+            }
+
+            @media (min-width: $sm-width) {
+                        margin: 0;
+
+                        .articles-cards-wrap {
+
+                            width: 100%;
+
+                            .section-title {
+                                padding: 0;
+                            }
+    
+                            padding: 0;
+                
+                            .articles-card {
+    
+                                margin: 25px 0 0;
+    
+                                a {
+                                    display: flex;
+    
+                                    .articles-card-featured-img {
+
+                                        width: 151px;
+                                        height: 151px; 
+                                        margin-bottom: 25px;
+                                        background-repeat: no-repeat;
+                                        background-position: center;
+                                    }
+                    
+                                    .articles-card-content {
+    
+                                        display: flex;
+                                        flex-direction: column;
+                                        padding-left: 20px;
+                                        margin-bottom: 0;
+                                        width: 165px;
+    
+                                        .articles-card-info {
+    
+                                            display: flex;
+                                            flex-direction: column;
+    
+                                            padding: 0;
+                    
+                                            .articles-categories {
+                    
+                                                .articles-card-category {
+    
+                                                    line-height: 18px;
+                                                }
+                                            }
+                    
+                                            .articles-card-date {
+                                                line-height: 18px;
+                                                display: none;
+                                            }
+                                        }
+                    
+                                        .articles-card-title {
+                                            display: flex;
+                                            padding-top: 16px;
+                                            height: 103px;
+                                            overflow: hidden;
+                                            font-size: 19px;
+                                            text-overflow: ellipsis;
+                                            display: -webkit-box;
+                                            -webkit-line-clamp: 4;
+                                            -webkit-box-orient: vertical;  
+                                        }
+                    
+                                        p {
+                                            font-weight: 300;
+                                            line-height: 23px;
+                                            margin: 20px 0;
+                                        }
+                    
+                    
+                                        .read-more {
+                                            font-weight: 600;
+                                            display: none;
+                                            .fas {
+                                                margin-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+
+                .newsletter-block {
+                    margin: 30px 0;
+
+                    .newsletter-block-inner {
+
+                        width: 100%;
+
+                        margin: 0;
+
+                        .section-title {
+                            font-size: 22px;
+                            line-height: 22px;
+                            padding: 0;
+                            margin-bottom: 34px;
+                        }
+                    }
+                
+                    .newsletter-block-wide {
+
+                        height: auto;
+
+                        background: none;
+                
+                        .far {
+                            color: $white;
+                            font-size: 70px;
+                            text-align: center;
+                            padding-bottom: 40px;
+                        }
+                
+                        .newsletter-block-wide-inner {
+
+                            width: 100%;
+                            padding: 0 20px;
+                            align-self: flex-end;
+                
+                            .form {
+                                height: auto;
+                                .form--email {
+                                    font-size: 18px;
+                                    border: 1px solid $lightGrey;
+                
+                                    &::placeholder {
+                                        font-size: 18px;
+                                    }
+                                }
+
+                                .btn {
+                                    font-size: 17px;
+                                    margin: 10px auto;
+                                }
+                            }
+                
+                            .newsletter-block-holder {
+                                width: 100%;
+                                justify-content: space-around;
+                                height: 100%;
+                                .under-title {
+                                    font-weight: 500;
+                                    line-height: 27px;
+                                    font-size: 18px;
+                                    //display: none;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .articles-cards-wrap {
+
+        padding: 0 $sm-pdd;
+
+        .articles-card {
+
+            width: 100%;
+            padding: 0;
+            margin: 30px 0 0;
+            border-bottom: 1px solid $lightGrey;
+
+            .articles-card-featured-img {
+
+                width: 100%;
+                height: 250px;
+                //background: url('/assets/images/article-card-placeholder.jpg') no-repeat;
+                background-size: cover;
+                -webkit-background-size:cover; 
+                background-position: center;
+                position: relative;
+
+                @media (max-width: $xsm-width) {
+                    height: 180px;
+                }
+
+                :last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .articles-card-content {
+                font-size: 16px;
+                font-weight: 300;
+                margin-bottom: 20px;
+
+                .articles-card-info {
+                    width: 100%;
+                    padding: 10px 0;
+
+                    .articles-categories {
+
+                        .articles-card-category {
+                            padding: 0;
+                            margin: 0;
+                            color: $deepGrey;
+                            font-size: 14px;
+                        }
+                    }
+
+                    .articles-card-date {
+                        padding: 0;
+                        margin: 0;
+                        color: $deepGrey;
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+
+                .articles-card-title {
+                    text-transform: none;
+                    font-style: normal;
+                    font-size: 23px;
+                    font-weight: 300;
+                    padding: 5px 0;
+                    margin: 0;
+                    color: $black;
+                    position: relative;
+                    z-index: 1;
+                    line-height: 27px;
+                }
+
+                p {
+                    font-weight: 300;
+                    line-height: 23px;
+                    margin: 20px 0;
+                }
+
+                .link-more {
+                    display: none;
+                }
+
+                .read-more {
+                    text-align: left;
+                    font-size: 14px;
+                    margin:10px 0 0;
+                    padding: 0;
+                    font-weight: 600;
+                    color: $black;
+
+                    .fas {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.valentines-block-wrap {
+    background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/valentines-hero-bg-desktop.jpg');
+    background-size: cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+
+    @media (max-width: $mid-width) {
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/valentines-hero-bg-mobile.jpg');
+        background-size: cover;
+        background-position: 0% 60%;
+    }
+
+    .valentines-block-inner {
+        height: 100vh;
+
+        @media (max-width: $mid-width) {
+            height: 90vh;
+        }
+
+        .valentines-block-col {
+            width: 50%;
+            height: 100%;
+
+            @media (max-width: $mid-width) {
+                width: 100%;
+                height: 100%;
+                justify-content: space-evenly;
+            }
+
+            .valentines-lead {
+                width: 55%;
+                font-size: 43px;
+                color: $white;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+                @media (max-width: $mid-width) {
+                    width: 100%;
+                    font-size: 37px;
+                    width: 150px;
+                    text-align: center;
+                    line-height: 35px;
+                    padding: 0;
+                    margin: 0 23px 0 0;
+                }
+            }
+            .valentines-cta-wrap {
+                width: 324px;
+                height: 307px;
+                background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/valentines-heart-desktop.svg');
+                background-size: cover;
+
+                @media (max-width: $mid-width) {
+                    background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/valentines-heart-mobile.svg');
+                    background-size: cover;
+                    width: 350px;
+                    height: 290px;
+                }
+
+                .valentines-cta-inner {
+                    width: 100%;
+                    height: 100%;
+
+                    @media (max-width: $mid-width) {
+                        margin-right: 23px;
+                    }
+
+                    .p {
+                        color: $white;
+                        font-weight: 700;
+                        text-align: center;
+                        margin: 8px 0;
+                        padding: 0;
+                        line-height: 24px;
+                    }
+
+                    .valentines-become-member {
+                        font-size: 22px;
+                    }
+                    .valentines-pricing {
+                        font-size: 55px;;
+                    }
+                    .valentines-subtitle {
+                        font-size: 22px
+                    }
+                    .valentines-click-here {
+                        font-size: 18px;
+
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}

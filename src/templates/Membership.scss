@@ -1,0 +1,139 @@
+.membership-mobile-hero-wrap {
+    background-color: $bgOffset;
+    padding: $sm-mgn-tp 0 0;
+
+    .section-title {
+        padding: 0 $sm-pdd;
+    }
+
+    .membership-mobile-hero-image {
+        background-size: cover;
+        background-position: center;
+        height: 240px;
+        width: 100%;
+    }
+    .membership-mobile-hero-content {
+
+        padding: 0 $sm-pdd;
+
+        .membership-btn {
+            margin: 60px 0;
+        }
+
+        .membership-mobile-content {
+
+            h3 {
+                font-size: 23px;
+                font-weight: 500;
+                margin-top: 80px;
+                margin-bottom: 0px;
+                text-align: center;
+            
+            }
+
+            p {
+                strong {
+                    font-weight: 600;
+                }
+            }
+            ul {
+                padding-left: 33px;
+                li {
+                    padding: 3px 0;
+                    line-height: 27px;
+                    list-style-position: inside;
+                    text-indent: -0.6em;
+
+                    &::before {
+                        left: 9px;
+                        top: -7px;
+                        width: 9px;
+                        height: 17px;
+                        border: solid $orange;
+                        border-width: 0 3px 3px 0;
+                        transform: rotate(45deg);
+                        margin-right: 1em;
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        content: '';
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.membership-hero-wrap {
+    background-size: cover;
+    background-position: center;
+
+    .membership-hero-inner {
+        .membership-hero-left {
+            width: 50%;
+            padding: $sm-mgn-tp 0;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+
+            .membership-hero-left-inner {
+
+                .section-title {
+                    padding-top: 10px;
+                    line-height: 35px;
+                }
+
+                padding: 0 8%;
+                .membership-hero-content {
+        
+                    .membership-btn {
+                        margin: 0;
+                    }
+            
+                    .membership-content {
+
+                        h3 {
+                            font-size: 23px;
+                            font-weight: 500;
+                            margin-top: 80px;
+                            margin-bottom: 30px;
+                        
+                        }
+
+                        p {
+                            strong {
+                                font-weight: 600;
+                            }
+                        }
+                        ul {
+                            padding-left: 33px;
+                            li {
+                                padding: 3px 0;
+                                line-height: 27px;
+                                list-style-position: inside;
+                                text-indent: -0.6em;
+            
+                                &::before {
+                                    left: 9px;
+                                    top: -7px;
+                                    width: 9px;
+                                    height: 17px;
+                                    border: solid $orange;
+                                    border-width: 0 3px 3px 0;
+                                    transform: rotate(45deg);
+                                    margin-right: 1em;
+                                    -webkit-transform: rotate(45deg);
+                                    -ms-transform: rotate(45deg);
+                                    content: '';
+                                }
+                            }
+                        }
+                    }
+            
+                }
+            }
+        }
+    }
+}
+.membership-wrap {
+    padding: 0 $sm-pdd 60px;
+}

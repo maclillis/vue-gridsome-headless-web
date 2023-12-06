@@ -1,0 +1,955 @@
+{
+    "html" : {
+        "lang" : "sv"
+    },
+    "google" : {
+        "referLang" : "en-GB",
+        "referTopUrl" : "www.trainimal.com/uk/woman/"
+    },
+    "appPromotionBlock" : {
+        "sectionTitle": "Ladda ner vår app!",
+        "sectionParagraph": "Kommunicera med dina coacher, få tillgång till smarta funktioner för träning och kost, registrera och följ din utveckling."
+    },
+    "campaignPromotionBlock" : {
+        "sectionTitle": "Prova gratis i två veckor",
+        "sectionParagraph": "Nu har du möjlighet att prova MammaFitness koncept under två kostnadsfria veckor med träningsupplägg och kostschema. Kom i gång med vår coachfria version av MammaFitness kost- och träningsapp!"
+    },
+    "comparisonTableBlock" : {
+        "sectionTitle": "Jämför medlemskap"
+    },
+    "faqBlock" : {
+        "sectionTitle" : "Vanliga frågor",
+        "furtherMore" : "Hittade du inte svar på din fråga? Kontakta oss på <a href='mailto:info@mammafitness.se'>info@mammafitness.se</a>, så hjälper vi dig!",
+        "items": [
+            { 
+                "id":1, 
+                "question":"Kan hela familjen äta maten ni föreslår?", 
+                "answer":"<p>Ja, absolut. Vi har ingen speciell dietmat utan det är vettig och bra mat utan konstigheter som går snabbt att laga till hela familjen. Du kommer även få råd av din kostrådgivare om hur du ska tänka kring barnens mat.</p>"
+            },
+            {
+                "id":2, 
+                "question":"Hur mycket tid ska jag lägga ner på träning om jag vill bli medlem hos er?", 
+                "answer":"<p>Du kan räkna med att det blir minst 2 gånger i veckan med 45 - 60 min per tillfälle. Beroende på dina förutsättningar och önskemål kan det naturligtvis bli fler pass, men vi tummar inte på återhämtningen som du behöver för att nå bra resultat.</p>"
+            },
+            {
+                "id":3, 
+                "question":"Hur personliga upplägg får jag?", 
+                "answer":"<p>Hos oss jobbar du alltid med minst en coach, två om du väljer vårt fulla koncept genom ett Träning & Kost-medlemskap. Dina coacher lägger alltid upp träning och kost efter just dina förutsättningar, möjligheter, matpreferenser och mål.</p>"
+            },
+            {
+                "id":4, 
+                "question":"Kan jag få hjälp med enbart träning?", 
+                "answer":"<p>Ja det kan du! Vår filosofi dock är att kost och träning hänger ihop och båda är nödvändiga för ett bra resultat. Vi rekommenderar alltid att du väljer både träning och kost som ett paket. Du kan även starta med vårt fulla koncept Kost & Träning och sedan förlänga med den del du vill ha mer stöd med. För dig som känner att du vill sköta din kost på egen hand finns givetvis medlemskap med fokus på enbart träning.</p>"
+            },
+            {
+                "id":5, 
+                "question":"Kan jag få hjälp med enbart kost?", 
+                "answer":"<p>Ja det kan du! Vår filosofi dock är att kost och träning hänger ihop och båda är nödvändiga för ett bra resultat. Vi rekommenderar alltid att du väljer både träning och kost som ett paket. Du kan även starta med vårt fulla koncept Kost & Träning och sedan förlänga med den del du vill ha mer stöd med. För dig som känner att du vill sköta din träning på egen hand, eller om du inte kan träna pga olika anledningar, finns givetvis medlemskap med fokus på enbart kost.</p>"
+            },
+            {
+                "id":6, 
+                "question":"Kan jag och min partner anmäla oss tillsammans? Hur går det till?", 
+                "answer":"<p>Social support är viktigt och vi påverkas även av vår hemmamiljö i allra högsta grad. Att arbeta mot ett gemensamt mål tillsammans med din partner kommer underlätta för er oerhört mycket! Anmäl er till samma startdag, skriv till oss på support@mammafitness.se och berätta att ni vill anmäla er tillsammans så ser vi till att ni får samma coacher och upplägg utformat efter er båda.</p>"
+            },
+            {
+                "id":7, 
+                "question":"Kan jag använda mitt friskvårdsbidrag hos er?", 
+                "answer":"<p>Det går utmärkt! Vi har samarbete med både Actiway och ePassi.</p><p> Såhär gör du för att använda Actiway hos oss:</p> <p><ol><li>Boka det abonnemang du önskar och genomför betalningen med kort.</li><li>Maila sedan en kopia på din legitimation till <a href='mailto:support@mammafitness.se'>support@mammafitness.se</a> och ange vilken summa du önskar att vi tar ut från Actiway.</li><li> När vi registrerat ditt uttag återbetalar vi omgående motsvarande belopp till ditt kort.</li></ol></p> <p>Såhär gör du för att använda ePassi:</p> <p><ol><li>Boka det abonnemang du önskar och genomför betalningen med kort.</li><li> Tag sedan ut önskat belopp via ePassi-appen.</li><li> Kontrollera noga att det är rätt företag, MammaFitness Sweden innan du gör uttaget.</li><li> Skicka en skärmbild till <a href='mailto:support@mammafitness.se'>support@mammafitness.se</a> på ditt uttag.</li><li> När vi fått bekräftelse på uttaget så återbetalar vi motsvarande belopp till ditt kort. Behöver du istället ha ett kvitto att lämna till din arbetsgivare, så är det orderbekräftelsen du får via mail från oss när du köper ditt abonnemang som fungerar som kvitto.</li></ol></p>"
+            },
+            {
+                "id":8, 
+                "question":"Kan jag delbetala?", 
+                "answer":"<p>Ja, du kan välja att delbetala månadsvis eller betala allt på en gång.</p>"
+            },
+            {
+                "id":9, 
+                "question":"Får man vara med om man inte fött barn?", 
+                "answer":"<p>Ja. MammaFitness filosofi om kost och träning och metodik med individanpassade upplägg genom personlig coaching kan anpassas till vem som helst. Våra tränare har alltid specifik utbildning inom mammaträning men har givetvis bred kompetens för att kunna coacha alla. Även män är varmt välkomna och får väldigt bra resultat hos oss.</p>"
+            },
+            {
+                "id":10, 
+                "question":"Jag har allergier eller följer en specialkost såsom vegetariskt eller veganskt - kan jag få hjälp?", 
+                "answer":"<p>Ja, vi anpassar din kost efter dina behov och allergier du har!</p>"
+            },
+            {
+                "id":11, 
+                "question":"Jag har Diabetes typ 1 eller typ 2 - kan jag bli medlem?", 
+                "answer":"<p>Ja, din kost och träning kommer anpassas efter dina behov. Du är välkommen till oss!</p>"
+            },
+            {
+                "id":12, 
+                "question":"Jag har hypotyreos - kan jag bli medlem?", 
+                "answer":"<p>Ja, din kost och träning kommer anpassas efter dina behov. Du är välkommen till oss!</p>"
+            },
+            {
+                "id":13, 
+                "question":"Jag har gått genom GBP- kan jag bli medlem?", 
+                "answer":"<p>Ja, din kost och träning kommer anpassas efter dina behov. Du är välkommen till oss!</p>"
+            },
+            {
+                "id":14, 
+                "question":"Jag har IBS – kan jag bli medlem?", 
+                "answer":"<p>Om du misstänker att du har IBS ska du kontakta din vårdgivare för en utredning och eventuell diagnos!</p><p>IBS (Irritable bowel syndrome) är ingen egentlig tarmsjukdom utan ett begrepp som omfattar olika besvär som har att göra med mage och tarm. Varför dessa problem uppstår är idag oklart. Symtom som magknip, förstoppning och/eller diarré, gaser och uppsvälld mage är vanliga. Det finns ingen generell behandling eller råd som hjälper alla med IBS, då alla har väldigt olika besvär och symtom, man måste alltså själv pröva sig fram till vad man mår bäst av.</p><p>Har man lindrigare besvär kan man uppleva en betydlig symtomlindring bara genom att förändra sina kostvanor genom VAD, NÄR och HUR man äter. Man kan tex äta mindre gasbildande mat om man främst har problem med gaser. Har man problem med förstoppning och/eller diarré kan man äta mat som är mer eller mindre stoppande. Upplever man att man får ont i magen av laktos kan man prova att minska på intaget alternativt prova laktosfria produkter. Allt detta kan vi hjälpa dig med här på MammaFitness.</p><p>För behandling av IBS rekommenderas kost enligt FODMAP. Detta är en kostbehandling som kräver utredning och behandling av en FODMAP-utbildad dietist och det ligger utanför vad vi har möjlighet att utföra här på MammaFitness. Är du intresserad av kostbehandling enligt FODMAP måste du vända dig till din vårdgivare.</p><p>För dig som redan är utredd och fått en kostbehandling enligt FODMAP så gäller, på samma sätt som för alla andra med livsmedelsallergier och/eller intolerans för enstaka livsmedel, att du måste själv ha koll på att recepten inte innehåller ingredienser som du inte tål och se till att med hjälp av våra verktyg byta ut det som du inte kan äta.</p>"
+            },
+            {
+                "id":15, 
+                "question":"Vad behöver jag för redskap för hemmaträning?", 
+                "answer":"<p>För att träningen hemma ska vara så effektiv som möjligt, så rekommenderar vi att du har tillgång till dessa redskap:</p><p><ul><li>Fitnessboll</li><li>Träningsmatta</li><li>Ett hantelset eller två justerbara hantlar 1 – 10 kg, gärna 1 – 20 kg</li><li>Minibands - ett måste även för gymträning. Välj band i olika styrkor, du hittar dem i vår webbshop</li><li>Har du en skivstång eller en bänk, så är det en bonus!</li></ul></p>"
+            }
+        ]
+    },
+    "featuredProductsBlock" : {
+        "sectionTitle" : "Utvalda produkter från vår webbshop",
+        "allProductsLink" : "Se alla våra produkter",
+        "products": [
+            { 
+                "id":1, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/kollagen-150x-100.jpg", 
+                "title":"Olga Rönnbergs® Kollagen med Hyaluronsyra",
+                "description": "Kollagen behövs för friska leder, muskler och bindväv. Detta kollagen innehåller också hyaluronsyra, C-vitamin och en liten dos magnesium och CoEnsym Q10.",
+                "price": "239 kr",
+                "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/236-olga-ronnbergs-kollagen-med-hyaluronsyra/"
+            },
+            { 
+                "id":2, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/gymball60.png", 
+                "title":"Fitnessboll",
+                "description": "Boll från Casall, handpump ingår",
+                "price": "299 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/168-fitnessboll/"
+            },
+            { 
+                "id":3, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/9789178871445.jpg", 
+                "title":"Olgas Utmaning",
+                "description": "Få kontroll över maten och toppa formen med Olgas utmaning.",
+                "price": "199 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/256-olgas-utmaning/"
+            },
+            { 
+                "id":4, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/vassle-vanilla-150x-100.jpg", 
+                "title":"Olga Rönnbergs® Vassleprotein",
+                "description": "Ett naturligt protein, helt utan konstgjorda tillsatser. Sötad med naturliga steviolglykosider.",
+                "price": "319 kr",
+                "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/121-olga-ronnbergs-vassleprotein/"
+            },
+            { 
+                "id":5, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/greenmediumband.png", 
+                "title":"MiniBand Green Medium",
+                "description": "Ett naturligt protein, helt utan konstgjorda tillsatser. Sötad med naturliga steviolglykosider.",
+                "price": "98 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/146-miniband-green-medium/"
+            },
+            { 
+                "id":6, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/traningfornyblivna.png", 
+                "title":"Träning för nyblivna mammor",
+                "description": "Träna bort mammamagen med effektiv hemmaträning",
+                "price": "159 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/113-traning-for-nyblivna-mammor/"
+            },
+            { 
+                "id":7, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/havre-vanilla-150x-100.jpg", 
+                "title":"Olga Rönnbergs® Havreprotein",
+                "description": "Ett naturligt vegetariskt protein, helt utan konstgjorda tillsatser. Sötad med naturliga steviolglykosider.",
+                "price": "339 kr",
+                "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/118-olga-ronnbergs-havreprotein/"
+            },
+            { 
+                "id":8, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/1186_traningsmatta_4mm.png", 
+                "title":"Träningsmatta 4 mm.",
+                "description": "En kvalitetsmatta för yoga och allmän träning.",
+                "price": "299 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/171-traningsmatta-4-mm/"
+            }
+        ]
+    },
+    "heroBlock" : {
+        "sectionTitle" : "Vanliga mammor,<br/> ovanliga resultat",
+        "sectionFirstParagraph" : "Vi erbjuder personligt stöd på vägen mot en hälsosam livsstil, specifikt utformat för dig som mamma och kvinna. Träning, kost och mindset, levererat digitalt för att passa in i din vardag. Allt hänger ihop.",
+        "sectionSecondParagraph" : "MammaFitness koncept ger dig professionell coaching, individuellt anpassad träning och balanserad kost - tillsammans når vi dina mål.",
+        "sectionBoldedParagraph" : "30.000+ Kvinnor har nått sina mål tillsammans med oss!",
+        "memberButton" : "Bli medlem",
+        "readmoreButton" :"Läs mer"
+    },
+    "latestArticlesBlock" : {
+        "sectionTitle" : "Senaste artiklarna från våra coacher",
+        "readArticleButton" : "Läs hela artikeln",
+        "readAllButton" : "Läs alla våra artiklar"
+    },
+    "membershipExplanationBlock" : {
+        "sectionTitle" : "Så fungerar våra medlemskap",
+        "description" : "Vi vet vad som ger hållbara och långsiktiga resultat: personlig coaching, individanpassad träning och balanserad kost efter dina förutsättningar. Därför erbjuder vi ett skräddarsytt upplägg med både personlig tränare och legitimerad dietist. För dig som vill sköta någon av delarna själv inns självklart medlemskap med fokus på endast kost eller träning.",
+        "step1" : "Du väljer medlemskap",
+        "step2" : "Bli medlem och ladda ner appen",
+        "step3" : "Du får personliga rådgivare",
+        "step4" : "Vi skapar din plan",
+        "step5" : "Vi kör igång"
+    },
+    "membershipsBlock" : {
+        "sectionTitle" : "Våra medlemskap",
+        "readmoreButton" : "Läs mer",
+        "memberButton" : "Bli medlem",
+        "memberships": [
+            { 
+                "id":1, 
+                "name":"Kost", 
+                "date": "Från 949 kr/30:e dag",
+                "intro": "Etablera nya sunda kostvanor. God och sund mat som fungerar i din vardag.",
+                "points" : [
+                    {"id": 1, "item": "Kostrådgivare"},
+                    {"id": 2, "item": "Veckouppföljning med feedback"},
+                    {"id": 3, "item": "Tillgång till MammaFitness app"},
+                    {"id": 4, "item": "Följ din utveckling"}
+                ],
+                "link": "/medlemskap/kost/",
+                "ecomData": {
+                    "name": "Kost",
+                    "id": "PTO-S-DIET",
+                    "price": 949,
+                    "quantity": 1
+                }
+            },
+            { 
+                "id":2, 
+                "name":"Träning & Kost", 
+                "date": "Från 1249 kr/30:e dag",
+                "intro": "MammaFitness fulla koncept där du får hjälp med både träning, kost och motivation.",
+                "points" : [
+                    {"id": 1, "item": "Personlig tränare & Leg. Diestist"},
+                    {"id": 2, "item": "Veckouppföljning med feedback"},
+                    {"id": 3, "item": "Tillgång till MammaFitness app"},
+                    {"id": 4, "item": "Följ din utveckling"}
+                ],
+                "link": "/medlemskap/traning-och-kost/",
+                "valued": true,
+                "ecomData": {
+                    "name": "Träning + Kost",
+                    "id": "PTONLINE",
+                    "price": 1249,
+                    "quantity": 1
+                }
+            },
+            { 
+                "id":3, 
+                "name":"Träning", 
+                "date": "Från 799 kr/30:e dag",
+                "intro": "Komma igång med din träning eller lyft dig till nästa nivå.",
+                "points" : [
+                    {"id": 1, "item": "Personlig tränare"},
+                    {"id": 2, "item": "Veckouppföljning med feedback"},
+                    {"id": 3, "item": "Tillgång till MammaFitness app"},
+                    {"id": 4, "item": "Följ din utveckling"}
+                ],
+                "link": "/medlemskap/traning/",
+                "ecomData": {
+                    "name": "Träning",
+                    "id": "PTO-S-TRAINING",
+                    "price": 799,
+                    "quantity": 1
+                }
+            },
+            { 
+                "id":4, 
+                "name":"Magträning nyblivna mammor", 
+                "date": "950 kr/30:e dag",
+                "intro": "För dig som nybliven mamma, starta här!",
+                "points" : [
+                    {"id": 1, "item": "Personlig tränare"},
+                    {"id": 2, "item": "Veckouppföljning med feedback"},
+                    {"id": 3, "item": "Tillgång till MammaFitness app"},
+                    {"id": 4, "item": "Följ din utveckling"}
+                ],
+                "link": "/medlemskap/magtraning-nyblivna-mammor/",
+                "ecomData": {
+                    "name": "Magträning för nyblivna mammor",
+                    "id": "PTO-S-MAMA",
+                    "price": 950,
+                    "quantity": 1
+                }
+            }
+        ]
+    },
+    "newsletterBlock" : {
+        "sectionTitle" : "Vill du alltid läsa senaste nytt?",
+        "underTitle" : "Prenumerera på MammaFitness inspirationsbrev för att ta del av senaste nytt, härliga recept och erbjudanden.",
+        "submitButton" : "Håll mig uppdaterad",
+        "failTitle" : "Tack!",
+        "failText" : "Det verkar dock som att du redan finns på vår lista, se fram emot ett rykande färskt nyhetsbrev snart.",
+        "sucessTitle" : "Tack!",
+        "sucessText" : "För att kunna fullfölja registreringen behöver du bekräfta din emailadress. Håll utkik i din inkorg efter ett bekräftelse-mail."
+    },
+    "ourMembersBlock" : {
+        "sectionTitle" : "Våra mamas",
+        "underTitle" : "Våra medlemmar delar med sig av sina resor med oss",
+        "readFullStory" : "Läs om hela resan",
+        "mamasQuotes": [
+            {
+              "id": 1,
+              "name": "Jessica",
+              "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/jessica.jpg",
+              "quote": "Mitt liv har förändrats totalt. Med hjälp av MammaFitness har jag lärt mig hantera sjukdom med rätt kost och träning."
+            },
+            {
+              "id": 2,
+              "name": "Maria",
+              "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/maria.jpg",
+              "quote": "Orken är som natt och dag... så galet tacksam att jag tog steget. "
+            },
+            {
+              "id": 3,
+              "name": "Linda",
+              "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/linda.jpg",
+              "quote": "Idag mår jag så otroligt bra. I början var det jobbigt med all planering speciellt med maten… men nu tänker jag inte ens på det. Det har blivit som vilken daglig rutin som helst."
+            },
+            {
+              "id": 4,
+              "name": "Maria",
+              "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/maria2.jpg",
+              "quote": "Resultatet av MammaFitness har varit bättre än vad jag hade kunnat drömma om."
+            }
+          ],
+        "readAllStories" : "Läs mer om våra mamas"
+    },
+    "timeMembershipsCardsBlock" : {
+        "sectionTitle" : "Hur länge du är med beror på resultaten du vill uppnå",
+        "subHeading" : "dagars medlemskap",
+        "memberButton" : "Bli medlem",
+        "pickedTitle" : "Ge dig själv ett år!",
+        "cards": [
+            { 
+                "id":1, 
+                "icon": null,
+                "days": "30",
+                "subheading":"Prova på MammaFitness, bekanta dig med våra verktyg och dina coacher",
+                "checklist": [
+                    { "id":1, "item":"Blodtryck stabiliserar sig"},
+                    { "id":2, "item":"Du blir piggare och orkar mer"},
+                    { "id":3, "item":"Dina stresshormoner sjunker och i stället frigörs dopamin, endorfiner och serotonin – kroppens hormoner som får oss att må bra."},
+                    { "id":4, "item":"Du förbättrar ditt självförtroende"},
+                    { "id":5, "item":"Du sover bättre på nätterna"},
+                    { "id":6, "item":"Du upplever dig smidigare"}
+                ],
+                "link": "https://shop.mammafitness.se/medlemskap/",
+                "picked": false,
+                "price": "Från 1399 kr / 30:e dag"
+            },
+            { 
+                "id":2, 
+                "icon": null,
+                "days": "90",
+                "subheading":"Etablera nya vanor, bryt gamla mönster – snabba resultat och motivation",
+                "checklist": [
+                    { "id":1, "item":"Du börjar se resultat på vågen (snitt 5 kg viktnedgång hos våra kunder)"},
+                    { "id":2, "item":"Dina kläder sitter bättre"},
+                    { "id":3, "item":"Andra börjar se dina resultat"},
+                    { "id":4, "item":"Du upplever bättre uthållighet"},
+                    { "id":5, "item":"Du upplever att du blivit starkare"},
+                    { "id":6, "item":"Merparten av muskeltillväxten sker under dina första 3 månader"},
+                    { "id":7, "item":"Du upplever dig mer tränad"}
+                ],
+                "link": "https://shop.mammafitness.se/medlemskap/",
+                "picked": false,
+                "price": "Från 1333 kr / 30:e dag"
+            },
+            { 
+                "id":3, 
+                "icon": null,
+                "days": "180",
+                "subheading":"Långsiktiga enklare beteendeförändringar, stabila tränings- och kostvanor som ger effekt under lång tid efter din tid hos oss",
+                "checklist": [
+                    { "id":1, "item":"Viktnedgången har blivit påtaglig (6,5 kg hos våra kunder)."},
+                    { "id":2, "item":"Enklare vanor är automatiserade"},
+                    { "id":3, "item":"Dina kost -och träningsrutiner är en del av vardagen"},
+                    { "id":4, "item":"Du börjar bli vältränad"}
+                ],
+                "link": null,
+                "picked": false,
+                "price": "Från 1299 kr / 30:e dag"
+            },
+            { 
+                "id":4, 
+                "icon": null,
+                "days": "360",
+                "subheading":"En helt förändrad livsstil, ge dig själv ett år som kommer förändra ditt liv!",
+                "checklist": [
+                    { "id":1, "item":"Du ser viktstabilitet"},
+                    { "id":2, "item":"Tidigare tuffa vanor är nu enkla att genomföra"},
+                    { "id":3, "item":"Du är nu mycket vältränad"},
+                    { "id":4, "item":"Du förbättrar ditt självförtroende"},
+                    { "id":5, "item":"Din hy är märkbart fräschare"},
+                    { "id":6, "item":"Din sömn är påtagligt förbättrad"},
+                    { "id":7, "item":"Du har en god energi hela dagen"},
+                    { "id":8, "item":"Du har ökad livskvalitet och inre styrka"},
+                    { "id":9, "item":"Du har motverkat en rad sjukdomar exempelvis hjärt- och kärlsjukdomar, diabetes"}
+                ],
+                "link": "https://shop.mammafitness.se/medlemskap/",
+                "picked": true,
+                "price": "Från 1249 kr / 30:e dag"
+            }
+        ]
+    },
+    "navigation" : {
+        "membership" : "Medlemskap",
+        "howItWorks" : "Så funkar det",
+        "food" : "Kost",
+        "exercise" : "Träning",
+        "exerciseFood" : "Träning & Kost",
+        "newmom" : "Magträning nyblivna mammor ",
+        "plus" : "MammaFitness +",
+        "premium" : "MammaFitness Premium",
+        "allProducts" : "Alla produkter",
+        "equipment" : "Träningsredskap",
+        "protein" : "Proteintillskott",
+        "books" : "Böcker",
+        "recovery" : "Återhämtning",
+        "giftCard" : "Presentkort",
+        "motivation" : "Motivation",
+        "shop" : "Webbshop",
+        "coaches" : "Våra Coacher",
+        "mamas" : "Våra Mamas",
+        "recipe" : "Våra recept",
+        "memberButton" : "Bli medlem",
+        "moreFromUs" : "<p>Mer från <span class='bolded'>MammaFitness</span></p>",
+        "mobileToggles" : [
+            {
+                "id":1,
+                "heading": "Medlemskap",
+                "items" : [
+                    {"id": 1, "heading": "Kost", "link": "/se/medlemskap/kost/"},
+                    {"id": 2, "heading": "Träning & Kost" , "link": "/se/medlemskap/traning-och-kost/"},
+                    {"id": 3, "heading": "Träning" , "link": "/se/medlemskap/traning/"},
+                    {"id": 4, "heading": "Magträning nyblivna mammor" , "link": "/se/medlemskap/magtraning-nyblivna-mammor/"}
+                ],
+                "link": "/medlemskap/"
+            },
+                        {
+                "id":2,
+                "heading": "Webbshop",
+                "items" : [
+                    {"id": 1, "heading": "Alla produkter", "link": "https://shop.mammafitness.se/produkter/"},
+                    {"id": 2, "heading": "Träningsredskap" , "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/"},
+                    {"id": 3, "heading": "Proteintillskott" , "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/"},
+                    {"id": 4, "heading": "Böcker" , "link": "https://shop.mammafitness.se/produkter/70-bocker/"},
+                    {"id": 5, "heading": "Återhämtning" , "link": "https://shop.mammafitness.se/produkter/82-aterhamtning/"},
+                    {"id": 6, "heading": "Presentkort" , "link": "https://shop.mammafitness.se/produkter/81-presentkort/"}
+                ],
+                "link": "https://shop.mammafitness.se/"
+            }
+        ]
+    },
+    "navigationLinks" : {
+        "searchArticles" : "/artiklar/"
+    },
+    "loginHandler" : {
+        "login" : "Logga in",
+        "logout" : "Logga ut",
+        "pto" : "PT Online"
+    },
+    "footer" : {
+        "navTitle" : "MammaFitness",
+        "navArticles" : "Alla artiklar",
+        "navRecipe" : "Alla recept",
+        "navCoach" : "Våra coacher",
+        "navMamas" : "Våra mamas",
+        "navAbout" : "Om oss",
+        "navWork" : "Jobb",
+        "navInvest" : "Investerare",
+        "contactTitle" : "Kontakt",
+        "contactPhone" : "Tel. <a href='tel:+468233440'>+46 (0)8 233 440</a>",
+        "contactMail" : "Mail. <a href='mailto:info@mammafitness.se'>info@mammafitness.se</a>",
+        "contactAdress" : "Adress: MammaFitness Sweden",
+        "contactAdress2" : "Tulegatan 19",
+        "contactZip": "113 53 Stockholm",
+        "socialTitle" : "Socialt",
+        "appTitle" : "Skaffa appen",
+        "otherCookie" : "Information om cookies",
+        "otherConditions" : "Allmänna villkor för MammaFitness",
+        "otherPrivacy" : "MammaFitness Integritetspolicy"
+    },
+    "membershipsQuickNavigationWidget" : {
+        "underTitle" : "Våra andra medlemskap",
+        "quicks": [
+            {
+              "id": 1,
+              "title": "Kost",
+              "bgImg": "https://storage.googleapis.com/mammafitness-wp/kost-medlem-1-1024x683.jpg",
+              "link": "/medlemskap/kost/"
+            },
+            {
+              "id": 2,
+              "title": "Träning & Kost",
+              "bgImg": "https://storage.googleapis.com/mammafitness-wp/traning-kost-medlem-1024x682.jpg",
+              "link": "/medlemskap/traning-och-kost/"
+            },
+            {
+              "id": 3,
+              "title": "Träning",
+              "bgImg": "https://storage.googleapis.com/mammafitness-wp/squats_mama-1024x696.jpg",
+              "link": "/medlemskap/traning/"
+            },
+            {
+              "id": 4,
+              "title": "Magträning nyblivna mammor",
+              "bgImg": "https://storage.googleapis.com/mammafitness-wp/couch_mama_new-1024x694.jpg",
+              "link": "/medlemskap/magtraning-nyblivna-mammor/"
+            }
+          ]
+    },
+    "testimonialsCardsWidget" : {
+        "testimonials": [
+            {
+                "id": 1,
+                "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/jessica.jpg",
+                "heading": "En helomvändning",
+                "membership": "Medlemskap: Kost & Träning",
+                "content": "Mitt liv har förändrats totalt, från att vara en trött, otränad och orkeslös mamma med dåliga matvanor och undanflykter till att vara en glad, pigg och starkare mamma med bra matvanor, trots min sjukdom. Med hjälp av mitt team på MammaFitness har jag lärt mig hur jag ska sköta sjukdomen med rätt kost och träning. För första gången i mitt liv känner jag att jag har kontroll över sjukdomen, inte tvärtom!",
+                "author": "Jessica"
+            },
+            {
+                "id": 2,
+                "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/maria.jpg",
+                "heading": "Som natt och dag",
+                "membership": "Medlemskap: Kost & Träning",
+                "content": "Vart ska jag börja? Förutom att fråga sig varför jag inte började tidigare? När man vet hur dagen ser ut både kost- och träningsmässigt så blir det av. Orken är som natt och dag. Verkligen. Kosten likaså. Men för att börja så behövde jag någon som berättade hur man gör, både när det kommer till kost och träning… så galet tacksam att jag tog steget.",
+                "author": "Maria"
+            },
+            {
+                "id": 3,
+                "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/linda.jpg",
+                "heading": "En fantastisk investering",
+                "membership": "Medlemskap: Kost",
+                "content": "Grönsaker bestod av gurka, sallad och paprika, kanske 1 gång i veckan. Idag mår jag så otroligt bra, jag äter frukt och bär flera gånger om dagen, middag och lunch utan grönsaker känns fattig, jag äter ofta och slipper det extrema sötsuget. I början var det jobbigt med all planering speciellt med maten… men nu tänker jag inte ens på det.",
+                "author": "Linda"
+            },
+            {
+                "id": 4,
+                "img": "https://storage.googleapis.com/mammafitness/public/web/images/mamas/maria2.jpg",
+                "heading": "Som vilken rutin som helst",
+                "membership": "Medlemskap: Kost & Träning",
+                "content": "Det var på en shoppingrunda beslutet togs. Inga kläder passade och jag hade fått nog. Resultatet av MammaFitness har varit bättre än vad jag hade kunnat drömma om. Det är inte bara maten. Inte bara träningen. Det är en ny livsstil. Ett nytt tänk. Nu mår jag BRA. Känns fantastiskt att investera i mig själv för en gång skull.",
+                "author": "Maria"
+            }
+        ]
+    },
+    "page404" : {
+        "sectionTitle" : "Sidan hittades ej",
+        "content" : "Sidan du försökte nå finns inte eller så har den blivit flyttad.",
+        "backPage" : "Gå till startsidan",
+        "metaTitle" : "Sidan hittades ej"
+    },
+    "pageAllArticles" : {
+        "sectionTitle" : "Alla artiklar",
+        "breadcrumbsTitle" : "Artiklar",
+        "searchPlaceholder" : "Sök efter artiklar...",
+        "searchResults" : "Visar sökresultat för: ",
+        "searchNoResults" : "Hittar tyvärr inga artiklar på det du sökte efter, testa sök på något annat!",
+        "readFullArticle" : "Läs hela artikeln",
+        "metaTitle" : "Alla artiklar",
+        "metaDescription" : "Vi erbjuder personligt stöd på vägen mot en hälsosam livsstil, specifikt utformat för dig som mamma och kvinna. Träning, kost och mindset, levererat digitalt för att passa in i din varddag. Allt hänger ihop.",
+        "cannoicalLink" : "/artiklar/"
+    },
+    "pageFood" : {
+        "sectionTitle" : "Allt inom Kost",
+        "articlesTitle" : "Våra artiklar om kost",
+        "searchPlaceholder" : "Sök efter artiklar om kost...",
+        "searchResults" : "Visar sökresultat för:",
+        "readFullArticle" : "Läs hela artikeln",
+        "noResults" : "Hittar tyvärr inga artiklar på på det du sökte efter, testa sök på något annat!",
+        "shopTitle" : "Kostprodukter från Webbshopen",
+        "nutrisiontsTitle" : "MammaFitness kostrådgivare",
+        "foodProducts": [
+            { 
+              "id":1, 
+              "img":"https://storage.googleapis.com/mammafitness/public/web/images/havre-vanilla-150x-100.jpg", 
+              "title":"Olga Rönnbergs® Havreprotein",
+              "description": "Ett naturligt vegetariskt protein, helt utan konstgjorda tillsatser. Sötad med naturliga steviolglykosider.",
+              "price": "339 kr",
+              "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/118-olga-ronnbergs-havreprotein/"
+          },
+          { 
+              "id":2, 
+              "img":"https://storage.googleapis.com/mammafitness/public/web/images/vassle-vanilla-150x-100.jpg", 
+              "title":"Olga Rönnbergs® Vassleprotein",
+              "description": "Ett naturligt protein, helt utan konstgjorda tillsatser. Sötad med naturliga steviolglykosider.",
+              "price": "319 kr",
+              "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/121-olga-ronnbergs-vassleprotein/"
+          },
+          { 
+              "id":3, 
+              "img":"https://storage.cloud.google.com/mammafitness/public/web/images/vanillapcake-150x-100.jpg", 
+              "title":"Olga Rönnbergs® Proteinpannkaka - mix 1kg",
+              "description": "Ett suveränt enkelt mellanmål eller frukost, färdigt på några minuter.",
+              "price": "335 kr",
+              "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/132-olga-ronnbergs-proteinpannkaka-mix-1kg/"
+          },
+          { 
+              "id":4, 
+              "img":"https://storage.googleapis.com/mammafitness/public/web/images/art-vanilla-150x-100.jpg", 
+              "title":"Olga Rönnbergs® Ärtprotein",
+              "description": "Ärtprotein är ett högvärdigt helt vegetabiliskt protein, naturligt fritt från gluten, mjölk och soya.",
+              "price": "210 kr",
+              "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/231-olga-ronnbergs-artprotein/"
+          },
+          { 
+              "id":5, 
+              "img":"https://storage.googleapis.com/mammafitness/public/web/images/kollagen-150x-100.jpg", 
+              "title":"Olga Rönnbergs® Kollagen med Hyaluronsyra",
+              "description": "Kollagen behövs för friska leder, muskler och bindväv.",
+              "price": "239 kr",
+              "link": "https://shop.mammafitness.se/produkter/71-proteintillskott/236-olga-ronnbergs-kollagen-med-hyaluronsyra/"
+          }
+      ],
+      "metaTitle" : "Allt inom Kost",
+      "metaDescription" : " ",
+      "canonicalLink" : "/kost/"
+    },
+    "pageIndex" : {
+        "metaTitle" : "MammaFitness - Vanliga mammor, ovanliga resultat"
+    },
+    "pageLogin" : {
+        "sectionTitle" : "Min profil",
+        "metaTitle" : "Min profil",
+        "canonicalLink" : "/logga-in/"
+    },
+    "pageMemberships" : {
+        "sectionTitle" : "Medlemskap",
+        "metaTitle" : "Medlemskap",
+        "cannoicalLink" : "/medlemskap/"
+    },
+    "pageProfile" : {
+        "sectionTitle" : "Min profil",
+        "metaTitle" : "Min profil",
+        "cannoicalLink" : "/min-profil/"
+    },
+    "pageMotivation" : {
+        "sectionTitle" : "Allt inom Motivation",
+        "articlesTitle" : "Våra artiklar om motivation",
+        "searchPlaceholder" : "Sök efter artiklar om motivation...",
+        "searchResults" : "Visar sökresultat för:",
+        "readFullArticle" : "Läs hela artikeln",
+        "noResults" : "Hittar tyvärr inga artiklar på det du sökte efter, testa sök på något annat!",
+        "shopTitle" : "Motivationsprodukter från Webbshopen",
+        "motivationProducts": [
+            { 
+                "id":1, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/traningfornyblivna.png", 
+                "title":"Träning för nyblivna mammor",
+                "description": "Träna bort mammamagen med effektiv hemmaträning",
+                "price": "159 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/113-traning-for-nyblivna-mammor/"
+            },
+            { 
+                "id":2, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/styrkaforkvinnor.png", 
+                "title":"Styrka för kvinnor",
+                "description": "Efterlängtad uppföljare till Träning för nyblivna mammor - med styrketräning och kost",
+                "price": "177 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/114-styrka-for-kvinnor/"
+            },
+            { 
+                "id":3, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/traningsdagbok.png", 
+                "title":"Tränings- och kostdagbok",
+                "description": "I Olga Rönnbergs enkla och tydliga dagbok finns ett uppslag för varje dag med både träningsdagbok och kostdagbok.",
+                "price": "98 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/115-tranings-och-kostdagbok/"
+            },
+            { 
+                "id":4, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/starkaformer.png", 
+                "title":"Starka Former - Mage & Rumpa",
+                "description": "Olgas långa erfarenhet av att träna kvinnor har resulterat i denna nya bok.",
+                "price": "185 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/116-starka-former-mage-rumpa/"
+            },
+            { 
+                "id":5, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/9789174248067.jpg", 
+                "title":"Olgas Mat - för aktiva kvinnor (häftad)",
+                "description": "Olgas mat är fullproppad med rätter som både smakar gott och fyller dig med näring och energi för att du ska klara av träning och vardagsliv.",
+                "price": "109 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/223-olgas-mat-for-aktiva-kvinnor-haftad/"
+            }, 
+            { 
+                "id":6, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/olgasomstart.jpg", 
+                "title":"Olgas Omstart",
+                "description": "Dags att göra annorlunda, Olga visar hur!",
+                "price": "195 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/212-olgas-omstart/"
+            },
+            { 
+                "id":7, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/9789178871445.jpg", 
+                "title":"Olgas Utmaning",
+                "description": "EFå kontroll över maten och toppa formen med Olgas utmaning.",
+                "price": "199 kr",
+                "link": "https://shop.mammafitness.se/produkter/70-bocker/256-olgas-utmaning/"
+            },
+            { 
+                "id":8, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/cardio-del-1.jpg", 
+                "title":"Cardio, del 1",
+                "description": "är är Olgas egna e-bok som lär dig en bra metod för din cardio-träning på löpband.",
+                "price": "99 kr",
+                "link": "https://shop.mammafitness.se/produkter/88-e-bocker/253-cardio-del-1/"
+            }
+        ],
+        "metaTitle" : "Allt inom Motivation",
+        "metaDescription" : " ",
+        "canonicalLink" : "/motivation/"
+    },
+    "pageHowItWorks" : {
+        "sectionTitle": "Så funkar MammaFitness",
+        "uspCards": [
+            { 
+                "id":1, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/resultat.svg",
+                "heading":"Ger resultat",
+                "description": "Grundat i professionell erfarenhet och vetenskaplig evidens vet vi vad som ger resultat; motiverande coaching, individuellt anpassad träning och balanserad kost. Inga komplicerade upplägg, strikta regler och förbud."
+            },
+            { 
+                "id":2, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/utformat.svg",
+                "heading":"Utformat efter dig ",
+                "description": "Välbeprövade strategier som fungerar i din vardag och anpassat efter ditt liv. Vi tar emot dig som är vegan, vegetarian, har allergier eller diabetes etc. Oavsett din utmaning, begränsning eller dina specifika önskemål och behov."
+            },
+            { 
+                "id":3, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/coacher.svg",
+                "heading":"Professionella coacher",
+                "description": "Våra tränare har alltid minst 3 års praktisk erfarenhet och utbildning inom mammaträning. Våra kostrådgivare har minst 180 hp inom kost. Exempelvis dietist, nutritionist eller hälsopedagog. Hos oss kan du vara lugn med att du kommer mötas av proffs med rätt kompetens."
+            },
+            { 
+                "id":4, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/smartaverktyg.svg",
+                "heading":"Smidiga digitala hjälpmedel",
+                "description": "Du får tillgång till 700+ träningsvideor och 1000+ recept med enkla instruktioner. Smarta funktioner som kostregistrering med PKF och kaloriräknare, streckkodsläsare och uppföljning av din utveckling. Full frihet att träna vart och när du vill och full kontroll på hur du äter."
+            },
+                      { 
+                "id":5, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/accountability.svg",
+                "heading":"Accountability",
+                "description": "Våra medlemmar vet att coacherna gör en uppföljning varje vecka. Det gör att det känns lite svårare att ta den enkla vägen och strunta i de goda föresatserna. Men det är också en trygghet att veta att vi alltid finns där för att hjälpa och stötta när det känns som jobbigast."
+            },
+                      { 
+                "id":6, 
+                "icon": "https://storage.googleapis.com/mammafitness/public/web/icons/mammor.svg",
+                "heading":"Har hjälpt 30 000+ mammor",
+                "description": "Vi har hjälpt mammor att komma i form sedan 2010. Ökad energi, sova bättre, bli starkare, ökad muskelmassa, tappa fett, få tillbaka sin tidigare form, hitta balans, stärkt självkänsla, lust, energi att fokusera på det som är viktigt."
+            }
+        ],
+        "metaTitle" : "Så funkar våra medlemskap - Träning & kost - MammaFitness.se",
+        "metaDescription" : "MammaFiness erbjuder sina medlemmar personlig träning och individuellt anpassad kostplan, med löpande feedback av utbildade och erfarna coacher.",
+        "canonicalLink" : "/sa-funkar-det/"
+    },
+    "pageExercise" : {
+        "sectionTitle" : "Allt inom Träning",
+        "subSectionTitle" : "Styrketräning för kvinnor handlar om att stärka kroppen från grunden: Oavsett om du har gått igenom graviditet, vill bli av med oönskad övervikt, forma om kroppen, är i klimakteriet – eller vill bli ditt starkaste, mest vältränade jag! Styrketräning och pulshöjande konditionsträning ger långsiktig styrka i livets alla skeenden. Som medlem hos MammaFitness får du träningsprogram, feedback och coachning för att nå dina mål.",
+        "articlesTitle" : "Våra artiklar om träning",
+        "searchPlaceholder" : "Sök efter artiklar om träning...",
+        "searchResults" : "Visar sökresultat för:",
+        "readFullArticle" : "Läs hela artikeln",
+        "noResults" : "Hittar tyvärr inga artiklar på det du sökte efter, testa sök på något annat!",
+        "shopTitle" : "Träningsprodukter från Webbshopen",
+        "trainersTitle" : "MammaFitness personliga tränare",
+        "exerciseProducts": [
+            { 
+                "id":1, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/greenmediumband.png", 
+                "title":"MiniBand Green Medium",
+                "description": "MammaFitness MiniBand är ett billigt, effektivt och behändigt redskap för träning av främst rumpan!",
+                "price": "98 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/146-miniband-green-medium/"
+            },
+                        { 
+                "id":2, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/gymball60.png", 
+                "title":"Fitnessboll",
+                "description": "Boll från Casall, handpump ingår.",
+                "price": "299 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/168-fitnessboll/"
+            },
+                        { 
+                "id":3, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/1186_traningsmatta_4mm.png", 
+                "title":"Träningsmatta 4 mm",
+                "description": "Mattan är perfekt att använda hemma, på gymmet eller när du reser. ",
+                "price": "299 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/171-traningsmatta-4-mm/"
+            },
+                        { 
+                "id":4, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/1190_trx_pro_kit.jpg", 
+                "title":"TRX Pro Kit",
+                "description": "TRX Pro Kit innehåller den starkaste och säkraste Suspension Trainern med slitstarka gummihandtag som är lätt att rengöra.",
+                "price": "2 739 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/172-trx-pro-kit/"
+            },
+            { 
+                "id":5, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/trx_home2.jpg", 
+                "title":"TRX HOME 2 Kit",
+                "description": "TRX HOME 2 SYSTEM är framtagen för träning i hemmet.",
+                "price": "1 995 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/173-trx-home-2-kit/"
+            },
+            { 
+                "id":6, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/pressurepointball_svart.png", 
+                "title":"Pressure Point Ball",
+                "description": "En specialtillverkad massageboll som hjälper dig att komma åt de djupaste muskelvävnaderna.",
+                "price": "149 kr",
+                "link": "https://shop.mammafitness.se/produkter/82-aterhamtning/147-pressure-point-ball/"
+            },
+            { 
+                "id":7, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/superrubberlight.png", 
+                "title":"Super Rubber Band",
+                "description": "Ett effektivt hjälpmedel för att avlasta vid chins-träning och för att träna marklyft utan vikter.",
+                "price": "249 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/177-super-rubber-band/"
+            },
+            { 
+                "id":8, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/flexbandmedium.png", 
+                "title":"Flex Band",
+                "description": "Det lättaste och smidigaste träningsredskap för hela kroppen som du kan hitta.",
+                "price": "99 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/180-flex-band/"
+            },
+            { 
+                "id":9, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/1220_casall_multi_balance_trainer.jpg", 
+                "title":"Casall Multi Balance Trainer",
+                "description": "Träningsredskap som ger dig möjligheten att använda din egen kroppsvikt för styrke- och balansövningar.",
+                "price": "699 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/184-casall-multi-balance-trainer/"
+            },
+            { 
+                "id":10, 
+                "img":"https://storage.googleapis.com/mammafitness/public/web/images/rubber-band-light.png", 
+                "title":"MiniBand - light",
+                "description": "Casall gummiband är ett lättanvänt men mångsidigt styrketräningsredskap.",
+                "price": "149 kr",
+                "link": "https://shop.mammafitness.se/produkter/77-traningsredskap/191-miniband-light/"
+            }
+        ],
+        "metaTitle" : "Allt inom Träning",
+        "metaDescription" : " ",
+        "canonicalLink" : "/traning/"
+    },
+    "pageCoaches" : {
+        "sectionTitle" : "Våra coacher",
+        "breadcrumbsTitle" : "Våra coacher",
+        "trainersTitle" : "Personliga tränare",
+        "nutrisionistTitle" : "Kostrådgivare",
+        "metaTitle" : "Våra coacher - Personliga tränare & kostrådgivare - MammaFitness",
+        "metaDescription" : "MammaFitness tränare och kostexperter ger dig individuellt anpassad träning, balanserad kost och professionell coachning. Tillsammans når vi dina mål!",
+        "canonicalLink" : "/vara-coacher/"
+    },
+    "pageMamas" : {
+        "sectionTitle" : "Våra mamas",
+        "teaserText" : "Under åren har <span class='bolded'>över 30 000 kvinnor nått sina mål med MammaFitness</span> och varje resa är lika unik och speciell som individen själv. Här nedan följer ett urval av framgångsrika historier som kvinnor har upplevt tillsammans med oss.",
+        "underTitle" : "Så tycker andra om oss!",
+        "signoffText" : "<span class='bolded'>Vill du också bli en av de 30 000?</span> Läs mer om våra medlemskap och bli medlem du med. Ett helt nytt liv väntar!",
+        "membershipButton" : "Våra medlemskap",
+        "memberButton" : "Bli medlem",
+        "mamasCards": [
+            { 
+                "id":1, 
+                "quote": "Goda resultat, <span class='bolded'>vettigt förhållningssätt till kroppen</span> och kosten. Härligt att bli stark och inte svälta eller titta sig blind på vågen."
+            },
+            { 
+                "id":2, 
+                "quote": "MF är ett säkert kort, som man kan lita på. <span class='bolded'Vet att det funkar.</span> Har varit medlem 6 månader 2019."
+            },
+            { 
+                "id":3, 
+                "quote": "MF har totalt förändrat mitt liv!! <span class='bolded'>Jag kom i mitt livs bästa och sundaste form</span> efter att jag passerade 40. Evigt tacksam och era lojala följare!"
+            }
+        ],
+        "mamasBubbles": [
+            {
+                "id": 1,
+                "quote": "&#34;<span class='bolded'>Har tidigare fått fina resultat.</span> Det passar mig att få ett färdigt träningsupplägg och jag motiveras av att någon ”kollar” mig och ger mig feedback&#34;"
+            },
+            {
+                "id": 2,
+                "quote": "&#34;<span class='bolded'>Era värderingar och värdegrund stämmer väl överens med mina</span> samt att jag ville ha kostdelen föratt maximera min styrketräning och nå ännu bättre träningsresultat.&#34;"
+            },
+            {
+                "id": 3,
+                "quote": "&#34;Har varit med förut och det enda som fungerar. <span class='bolded'>Fullt fokus på både kost och träning med stöttning på bägge områden från er.</span>&#34;"
+            },
+            {
+                "id": 4,
+                "quote": "&#34;Jag behövde bygga upp mig efter skada när jag började och det har jag nu lyckats med. <span class='bolded'>Dessutom är jag äntligen smärtfri efter skadan. Helt ovärderligt.</span>&#34;"
+            },
+            {
+                "id": 5,
+                "quote": "&#34;<span class='bolded'>Du får enormt bra stöttning.</span> Själv skulle jag bygga upp mig efter skada när jag började och det har jag nu lyckats med. Dessutom är jag äntligen smärtfri efter skadan. Helt ovärderligt.&#34;"
+            },
+            {
+                "id": 6,
+                "quote": "&#34;Att det faktiskt funkar och att man kan få hjälp med ett <span class='bolded'>långsiktigt förhållande till maten och inte bara en kort kur</span>.&#34;"
+            },
+            {
+                "id": 7,
+                "quote": "&#34;MammaFitness jobbar med långsiktighet, inga quick fix som ändå inte fungerar i längden. <span class='bolded'>Skapar trygghet i processen. Mycket bra app, stort utbud av recept. Man får fina resultat!</span>&#34;"
+            },
+            {
+                "id": 8,
+                "quote": "&#34;Att det inte är bantning och att man får lära sig att man får äta allt. Och att man får lära sig om hur mycket. Plus att man får <span class='bolded'>fantastiska träningsupplägg</span> oavsett hur mycket man vill träna.&#34;"
+            },
+            {
+                "id": 9,
+                "quote": "&#34;Coachingen från kostrådgivaren och PT är perfekt. Är deras <span class='bolded'>positiva svar och pepp</span> som gör att man vill mer och orkar.&#34;"
+            }
+        ],
+        "metaTitle" : "30.000+ kvinnor har nått sina mål med oss - MammaFitness.se",
+        "metaDescription" : "Se ett urval av kvinnor som nått sina mål MammaFitness medlemskap i kost och träning. Läs deras berättelser och se deras resultat i före- & efterbilder.",
+        "canonicalLink" : "/vara-mamas/"
+    },
+    "templateArticle" : {
+        "breadcrumbParentTitle" : "Artiklar",
+        "published" : "Publicerad den",
+        "by" : "av",
+        "updated" : "Uppdaterad",
+        "tagged" : "Taggat med:",
+        "editor" : "Webbredaktör",
+        "relatedTitle" : "Relaterade artiklar",
+        "relatedFullArticle" : "Läs hela artikeln"
+    },
+    "templateCategory" : {
+        "sectionTitle" : "Alla artiklar i kategorin",
+        "breadcrumbParentTitle" : "Artiklar",
+        "breadcrumbCurrentTitle" : "Kategori",
+        "readFullArticle" : "Läs hela artikeln",
+        "metaTitle" : "Alla artiklar i kategorin ",
+        "metaDescription" : "Vi erbjuder personligt stöd på vägen mot en hälsosam livsstil, specifikt utformat för dig som mamma och kvinna. Träning, kost och mindset, levererat digitalt för att passa in i din varddag. Allt hänger ihop."
+    },
+    "templateCoach" : {
+        "breadcrumbParentTitle" : "Våra coacher",
+        "backButton" : "Tillbaka"
+    },
+    "templateMembership" : {
+        "sectionTitle" : "Medlemskap - ",
+        "memberButton" : "Bli medlem",
+        "metaTitle" : "Medlemskap -",
+        "canonicalLink" : "/medlemskap/"
+    },
+    "templateTag" : {
+        "sectionTitle" : "Alla artiklar taggade med",
+        "breadcrumbParenTitle" : "Artiklar",
+        "breadcrumbcurrentTitle" : "Tag",
+        "readFullArticle" : "Läs hela artikeln",
+        "metaTitle" : "Alla artiklar taggade med ",
+        "metaDescription" : "Vi erbjuder personligt stöd på vägen mot en hälsosam livsstil, specifikt utformat för dig som mamma och kvinna. Träning, kost och mindset, levererat digitalt för att passa in i din varddag. Allt hänger ihop."
+    }
+}

@@ -1,0 +1,71 @@
+#membership-wizard {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fceade;
+    border-top: 5px solid #eb610a;
+    border-bottom: 5px solid #eb610a;
+}
+
+#mw-questions, #mw-result {
+    height: 500px;
+    position: relative;
+}
+
+#mw-promo {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mwqi-options, .mwr-answers {
+    margin-bottom: 40px;
+}
+
+.mwq-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.mw-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 78%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.mw-button-row {
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    height: 15%;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.mw-invalid {
+    background-color: #666!important;
+    cursor: not-allowed!important;
+}
+
+.mw-invalid:hover {
+    background-color: rgb(80, 79, 79)!important;
+}
+
+.mw-valid {
+    background-color: #419410!important;
+    cursor: pointer!important;
+}
+
+.mw-valid:hover {
+    background-color: #32740d!important;
+}
+
+strong { font-weight: bold!important; }

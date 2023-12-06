@@ -1,0 +1,218 @@
+
+.nav__link {
+    margin-left: 20px;
+}
+
+.Desktop--menu-wrap {
+    display: none;
+    width: 100%;
+
+    .Desktop--menu-inner {
+
+        .Desktop--menu-left {
+
+            .Desktop--menu-logo {
+
+                    .mf-deskt-logo-svg-w {
+                        width: 250px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .mf-deskt-logo-svg-b {
+                        display: none;
+                        width: 200px;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+            }
+        }
+
+        .Desktop--menu-right {
+            position: relative;
+            .Desktop--menu--nav-wrap {
+                margin-right: 10px;
+                height: 100%;
+                display: flex;
+                a {
+                    height: 100%;
+                    color: $white;
+                    font-weight: 400;
+                    font-size: 17px;
+                    text-decoration: none;
+                    align-items: center;
+                    display: flex;
+                    padding: 0 15px;
+                    border-left: 1px solid transparent;
+                    border-right: 1px solid transparent;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 17px;
+                    }
+                }
+
+                //Current page marker 
+                .active--exact {
+                    p {
+                        position: relative;
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            bottom: -23px;
+                            left: 0;
+                            width: 100%;
+                            background-color: $orange;
+                            height: 4px;
+                            transition: height 0.15s ease-out;
+                            animation-duration: 0.3s;
+                            animation-name: currentPage;
+                        }
+                    }
+                }
+
+                 .active {
+                     :not(.sub-ddown-list) {
+                         background-color: transparent;
+                     }
+                }
+
+                .has-items {
+                    p {
+                        position: relative;
+                        padding-right: 8px;
+                    }
+
+                    #sub-membership {
+                        &::before {
+                            left: 25%;
+                        }
+                    }
+
+                    #sub-products {
+                        &::before {
+                            left: 40%;
+                        }
+                    }
+                    .sub-ddown-wrap {
+                        display: none;
+                        z-index: 10;
+
+                        &::before {
+                            content: '';
+                            background: url(https://storage.googleapis.com/mammafitness/public/web/icons/caret-up.svg) no-repeat;
+                            background-size: cover;
+                            width: 20px;
+                            height: 20px;
+                            position: absolute;
+                            top: -20px;
+                        }
+                        .sub-ddown-list {
+                            margin: 0;
+                            padding: 5px 0;
+                            background-color: $offsetWhite;
+                            z-index: 10;
+                            a {
+                                color: $black;
+                                font-weight: 400;
+                                font-size: 14px;
+                                padding: 0;
+                                border-left: none;
+                                border-right: none;
+                                li {
+                                    padding: 9px 18px;
+                                    width: 100%;
+                                    &::before {
+                                        content: '';
+                                        display: none;
+                                    }
+        
+                                    &:hover {
+                                        background-color: $lighterOrange;
+                                        color: $orange;
+                                        //border-left: 5px solid $lightOrange;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+
+                            .active--exact {
+                                color: $orange;
+                                font-weight: 500;
+                                border-left: 5px solid $orange;
+                            }
+                        }
+                    }
+
+                    #sub-membership {
+                        width: 265px;
+                        position: absolute;
+                        top: 75px;
+                        left: 150px;
+                    }
+
+                    #sub-products {
+                        position: absolute;
+                        top: 75px;
+                        left: 310px;
+                    }
+                }
+
+                #membership {
+                    &:hover {
+                        #sub-membership {
+                            display: block; 
+                            animation-duration: 0.4s;
+                            animation-name: openDropdown;
+                        }
+                    }
+                }
+
+                #products {
+                    &:hover {
+                        #sub-products {
+                            display: block;
+                            animation-duration: 0.4s;
+                            animation-name: openDropdown;
+                        }
+                    }
+                }
+
+                .search-icon {
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    cursor: pointer;
+                }
+
+                .search-b {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@keyframes currentPage {
+    from {
+      height: 0;
+    }
+    to {
+      height: 4px; 
+    }
+  }
+
+  @keyframes openDropdown {
+    from {
+      opacity: 0;
+      top: 80px
+    }
+    to {
+      opacity: 1;
+      top: 75px; 
+    }
+  }

@@ -1,0 +1,264 @@
+.campaign-promotion-block-wrap {
+    padding: 0;
+
+    .campaign-promotion-big-wide {
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/giftcard500_herodesktop.jpg');
+        //background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/okt2021_herodesktop.jpg');
+        background-size: cover;
+        background-position: 100%;
+
+        //padding: 30px 0 60px;
+
+        .campaign-promotion-big-wide-inner {
+
+            @media (max-width: $mid-width) {
+                text-align: center;
+                padding: 0 $sm-pdd;
+            }
+
+            margin: 150px 0;
+
+            @media (max-width: $mid-width) {
+                margin: 0;
+            }
+
+            .section-row {
+                .section-col {
+
+                    .section-title {
+                        font-size: 32px;
+                        line-height: 42px;
+                        color: $black;
+                        margin-bottom: 0;
+                        margin-top: 60px;
+                        font-weight: 700;
+                        text-align: center;
+                        max-width: 440px;
+            
+                          @media (min-width: $mid-width) {
+                            font-size: 48px;
+                            line-height: 62px;
+                            margin: 0;
+                            text-align: center;
+                        }
+
+                        @media (max-width: $mid-width) {
+                            text-align: left;
+                            margin-top: 40px;
+                        }
+
+                        &::after {
+                            content: '';
+                            display: none;
+                        }
+                    }
+
+                    .section-paragraph {
+                        font-size: 20px;
+                        font-weight: 400;
+                        text-align: center;
+
+                        span {
+                            font-weight: 600;
+                        }
+
+                        @media (max-width: $mid-width) {
+                            font-size: 17px;
+                            text-align: left;
+                        }
+                    }
+
+                    .copy-content {
+
+                        @media (max-width: $mid-width) {
+                            //padding: 0 $sm-pdd;
+                        }
+                    }
+    
+                  .element-container {
+                    .element-video {
+                      width: 512px;
+                      @media (max-width: $mid-width) {
+                            margin: 20px auto;
+                            width: 50%;
+                        }
+                        
+                        @media (max-width: $sm-width){
+                            padding:  0;
+                            width: 90%;
+                        }
+                    }
+                  }
+                }
+              }
+        }
+    }
+    .campaign-info-under-image {
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/giftcard500_heromobile.jpg');
+        background-size: cover;
+        background-position: 100%; 
+        width: 100%;
+        height: 270px;
+
+        @media (max-width: $sm-width) {
+            margin-top: 40px;
+        }
+    }
+
+    /*
+    .campaign-info-under-image {
+        background: url('https://storage.googleapis.com/mammafitness/public/web/images/campaigns/okt2021_heromobile.jpg');
+        background-size: cover;
+        background-position: 100%; 
+        width: 100%;
+        height: 270px;
+
+        @media (max-width: $sm-width) {
+            margin-top: 40px;
+        }
+    }
+    */
+
+    .campaign-info-under-wrap {
+        background-color: $deepGrey;
+
+        //padding: 30px 0 60px;
+        padding: 60px 0 60px;
+
+        @media (max-width: $mid-width) {
+            padding: 30px $sm-pdd;
+        }
+
+        .campaign-info-under-col {
+            color: $white;
+            width: 100%;
+
+            @media (max-width: $sm-width) {
+                width: auto;
+            }
+
+            .first-paragraph {
+                /*@media (max-width: $sm-width) {
+                    font-size: 38px;
+                    text-align: center;
+                    max-width: 300px;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                }*/
+                @media (max-width: $sm-width) {
+                    font-size: 38px;
+                    text-align: center;
+                    max-width: 400px;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                }
+            }
+
+            /*p {
+                font-size: 17px;
+            }*/
+
+            p {
+                font-size: 19px;
+                font-weight: 400;
+                text-align: center;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+
+            h4 {
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            ul {
+                li {
+                    padding: 3px 0;
+                    line-height: 27px;
+                    list-style-position: inside;
+                    text-indent: -0.6em;
+                    font-size: 17px;
+
+                    &::before {
+                        left: 9px;
+                        top: -7px;
+                        width: 7px;
+                        height: 14px;
+                        border: solid $orange;
+                        border-width: 0 3px 3px 0;
+                        transform: rotate(45deg);
+                        margin-right: 1em;
+                        -webkit-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        content: '';
+                    }
+                }
+            }
+
+            ol {
+                list-style: none; counter-reset: li;
+                margin: 0;
+                padding: 0;
+                max-width: 500px;
+
+                @media (max-width: $sm-width) {
+                    max-width: none;
+                }
+                li {
+                    counter-increment: li;
+                    font-weight: 400;
+                    padding: 8px;
+                    font-size: 17px;
+                }
+
+                li::before {
+                    content: counter(li); 
+                    color: $orange;
+                    display: inline-block; 
+                    width: 1em;
+                    margin-left: -1em;
+                    font-weight: 700;
+                };
+            }
+
+            .app-stores-holder {
+                width: 100%;
+                margin-top: 20px;
+                display: inline-block;
+
+                @media (max-width: $sm-width) {
+                    text-align: center;
+                }
+
+                #app-icon-ap {
+                    width: 158px;
+                    margin-right: 20px;
+
+                    @media (max-width: $sm-width) {
+                        margin-right: 0;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                #app-icon-go {
+                    width: 180px;
+                }
+            }
+        }
+    }
+
+    .button-wrap {
+
+        button {
+
+            @media (max-width: $sm-width) {
+                font-size: 17px;
+                margin: 30px 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,150 @@
+.our-members-block {
+
+    margin-bottom: 0px;
+
+    .our-members-block-inner {
+
+        padding: 0 $sm-pdd;
+    
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+
+        .section-title {
+            margin-top: 90px;
+            margin-bottom: 25px;
+
+            @media (max-width: $mid-width) {
+                margin-top: 70px;
+                margin-bottom: 45px
+            }
+        }
+
+        .under-title {
+            font-size: 24px;
+            font-weight: 300;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+
+            @media (max-width: $mid-width) {
+                font-size: 20px;
+                line-height: normal;
+                margin: 40px 0;
+            }
+        }
+
+        .our-members-carousel-wrap {
+
+            padding: 30px 0;
+
+            @media (max-width: $mid-width) {
+                padding: 0;
+            }
+
+            .slick-slider {
+                .slick-next {
+                    right: -55px;
+                }
+
+                .slick-prev {
+                    left: -55px;
+                }
+            }
+
+            .our-members-carousel-slide {
+
+                display: flex !important;
+                overflow: hidden;
+
+                .our-members-left {
+
+                    width: 50%;
+
+                    @media (max-width: $sm-width) {
+                        width: 100%;
+                    }
+
+                    .our-members-photo {
+
+                        padding: 30px;
+
+                        @media (max-width: $sm-width) {
+                            padding: 15px;
+                        }
+
+                        background-color: $white;
+                        box-shadow: 0px 4px 4px rgba(208, 208, 208, 1);
+
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .our-members-right {
+
+                    width: 50%;
+                    margin-left: 60px;
+
+                    @media (max-width: $mid-width) {
+                        width: 100%;
+                        margin-top: 28px;
+                        margin-left: 0;
+                    }
+
+                    .our-members-quote-icon {
+                        background: url(https://storage.googleapis.com/mammafitness/public/web/icons/quote-symbol.svg);
+                        background-size: cover;
+                        width: 36px;
+                        height: 30px;
+
+                        @media (max-width: $mid-width) {
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                    }
+
+                    .our-members-quote {
+                        padding-top: 20px;
+                        font-style: italic;
+                        line-height: normal;
+                        font-size: 24px;
+
+                        @media (max-width: $mid-width) {
+                            font-size: 18px;
+                            text-align: center;
+                            line-height: 22px
+                        }
+                    }
+
+                    .our-members-author {
+                        text-transform: none;
+                        font-weight: 400;
+
+                        @media (max-width: $mid-width) {
+                            text-align: center;
+                            font-size: 22px;
+                        }
+                    }
+
+                    .our-members-text-button {
+                        font-weight: 600;
+                        font-size: 18px;
+                        width: 100%;
+
+                        @media (max-width: $mid-width) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .our-members-text-button-big {
+            margin: 40px 0;
+            font-size: 20px;
+        }
+    }
+}

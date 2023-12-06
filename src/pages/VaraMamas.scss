@@ -1,0 +1,303 @@
+.vara-mamas-hero {
+
+    background: url('https://storage.googleapis.com/mammafitness/public/web/images/vara-mamas-bg.jpg') no-repeat;
+    background-size: 120%;
+    background-position: 23% 32%;
+
+    width: 100%;
+    height: 70vh;
+
+    mask: url('/assets/images/heromask.svg') center bottom / 100%;
+    -webkit-mask: url('/assets/images/heromask.svg') no-repeat center bottom / 100%;
+
+    @media (max-width: $mid-width) {
+        height: 45vh;
+        background-size: 137%;
+        background-position: 32% 29%;
+    }
+
+    .mamas-hero-inner {
+
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0px 0 0;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .section-title {
+            font-size: 50px;
+            line-height: 62px;
+            color: $white;
+            margin-bottom: 0;
+            margin-top: 0;
+            font-weight: 500;
+            text-align: center;
+            text-shadow: 0px 0px 20px $black;
+      
+            &::after {
+                content: '';
+                display: none;
+            }
+
+            @media (max-width: $sm-width) {
+                font-size: 30px;
+                line-height: 38px;
+                padding-top: 25px;
+                text-align: center;
+            }
+        }
+
+        .section-undertitle {
+            color: $white;
+            font-size: 23px;
+            margin: 0;
+            padding: 0;
+            line-height: normal;
+            text-shadow: 0px 0px 20px $black;
+            display: none;
+        }
+    }
+}
+
+.vara-mamas-wrap {
+    margin:  0;
+    padding: 0;
+    position: relative;
+
+    @media (min-width: $mid-width) {
+        padding: 0;
+    }
+
+    .vara-mamas-teaser-wrap {
+
+        @media (max-width: $sm-width) {
+            margin: 50px 0;
+        }
+
+        margin-bottom: 100px;
+
+        .teaser-title {
+            width: 80%;
+            font-size: 25px;
+            font-weight: 300;
+            line-height: normal;
+            text-align: center;
+
+            @media (max-width: $sm-width) {
+                font-size: 20px;
+            }
+
+            .bolded {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .quotes-cards-wrap {
+        padding: 0;
+        position: relative;
+        top: -40px;
+
+        @media (min-width: $mid-width) {
+            top: -100px;
+        }
+
+        @media (max-width: $sm-width) {
+            padding: 0 $sm-pdd;
+        }
+
+        .quotes-card {
+
+            width: 423px !important;
+            height: 230px;
+
+            @media (max-width: $sm-width) {
+                width: 326px !important;
+            }
+
+            display: inline-flex !important;
+
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+            position: relative;
+
+            .quotes-p {
+                font-size: 18px;
+                line-height: 27px;
+                padding: 0 45px;
+                font-style: italic;
+                text-align: center;
+
+                @media (max-width: $sm-width) {
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+
+                .bolded {
+                    font-weight: 500;
+                }
+            }
+
+            &::before {
+                content: '';
+                background: url(https://storage.googleapis.com/mammafitness/public/web/icons/quotes-left.svg) no-repeat;
+                background-size: 100%;
+                background-position: 0;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+
+            &::after {
+                content: '';
+                background: url(https://storage.googleapis.com/mammafitness/public/web/icons/quotes-right.svg) no-repeat;
+                background-size: 100%;
+                background-position: 0;
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+            }
+        }
+
+        .slick-slider {
+            .slick-list {
+                overflow: visible;
+                .slick-track {
+                    .slick-slide {
+                        margin-right: 13px;
+
+                        &:last-child {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .quotes-cloud-wrap {
+        margin-bottom: 100px;
+
+        @media (max-width: $mid-width) {
+            padding: 0 $sm-pdd;
+        }
+
+        .quotes-cloud-bubble {
+            background-color: $white;
+            padding: 40px;
+            box-shadow: 0px 4px 4px rgba(208, 208, 208, 0.25);
+            height: 180px;
+            border-radius: 100px;
+            position: relative;
+
+            @media (max-width: $mid-width) {
+                padding: 20px 30px;
+                border-radius: 50px;
+            }
+
+            &:nth-child(even){
+                background-color: $lighterOrange; 
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 30%;
+                width: 0;
+                height: 0;
+                border: 36px solid transparent;
+                border-top-color: $lighterOrange;
+                border-bottom: 0;
+                border-left: 0;
+                margin-left: -18px;
+                margin-bottom: -36px;
+            }
+
+            &:nth-child(odd){
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 70%;
+                    width: 0;
+                    height: 0;
+                    border: 36px solid transparent;
+                    border-top-color: $white;
+                    border-bottom: 0;
+                    border-left: 0;
+                    margin-left: -18px;
+                    margin-bottom: -36px;
+                    -webkit-transform: scaleX(-1);
+                    transform: scaleX(-1);
+                }
+            }
+
+            .quotes-cloud-inner {
+                width: 100%;
+                p {
+                    font-size: 18px;
+                    font-weight: 300;
+                    text-align: center;
+                    font-style: italic;
+                    line-height: normal;
+                    margin: 0;
+                    hyphens: auto;
+
+                    @media (max-width: $mid-width) {
+                        font-size: 17px;
+                    }
+
+                    .bolded {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    .vara-mamas-closer-wrap {
+        margin-bottom: 100px;
+
+        .teaser-title {
+            width: 80%;
+            font-size: 26px;
+            font-weight: 300;
+            line-height: normal;
+            text-align: center;
+            margin-bottom: 40px;
+
+            @media (max-width: $sm-width) {
+                font-size: 21px;
+            }
+
+            .bolded {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .buttons-wrap {
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+    }
+
+    .under-title {
+        padding: 0 $sm-pdd;
+
+        @media (min-width: $mid-width) {
+            padding: 0;
+        }
+
+    }
+}

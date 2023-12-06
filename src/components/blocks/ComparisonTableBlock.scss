@@ -1,0 +1,55 @@
+.comparison-block {
+    .comparison-block-inner {
+        margin: 40px 0 100px;
+        padding: 0;
+
+        .comparison-table {
+            width: 100%;
+
+            .comparison-table-svg {
+                width: 100%;
+            }
+
+            .comparison-row {
+                padding: 10px 0;
+
+                &:first-child {
+                    font-weight: 600;
+                    position: relative;
+
+                    .comparison-cell {
+                        font-size: 17px;
+                        line-height: 24px;
+                    }
+                }
+
+                .comparison-cell {
+                    padding: 0px;
+                    width: 12%;
+                    font-size: 14px;
+                    line-height: 22px;
+
+                    &:first-child {
+                        width: 25%;
+                        text-align: right;
+                    }
+
+                    .check {
+                        .fa-check {
+                            color: $orange;
+                            font-size: 20px;
+                            /*opacity: 0;
+                            transform: scale(0.7);
+                            -webkit-transform: scale(0.7);
+                            -moz-transform: scale(0.7);*/
+                        }
+                        .fa-times {
+                            color: $lightGrey;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

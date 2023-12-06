@@ -1,0 +1,23 @@
+.membership-node-wrap {
+    margin: $sm-mgn-tp 0;
+    padding: 0 $sm-pdd;
+
+    @media (min-width: $mid-width) {
+        padding: 0;
+    }
+
+    .memberships-block-wrap {
+        .memberships-block-inner {
+            .section-title {
+                display: none;
+            }
+            .memberships-card-wrap {
+                padding: 0;
+            }
+
+            .btn {
+                display: none;
+            }
+        }
+    }
+}

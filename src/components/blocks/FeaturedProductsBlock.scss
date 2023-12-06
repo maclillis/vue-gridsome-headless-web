@@ -1,0 +1,110 @@
+.featured-products-wrap{
+
+
+    .featured-products-inner {
+
+        margin: 50px 0;
+
+        @media (max-width: $sm-width) {
+            margin: 40px 0 0;
+        }
+
+        .section-title {
+            padding: 0 $sm-pdd;
+
+            @media (min-width: $mid-width) {
+                padding: 0;
+            }
+        }
+
+        .horizontal-line {
+            width: 50%;
+            margin: 0 auto;
+            border: 2px solid $lighterGrey;
+            margin-bottom: 100px;
+
+            @media (max-width: $mid-width) {
+                margin-bottom: 70px;
+            }
+        }
+
+        .feat-products-carousel-wrap {
+
+            padding: 20px $sm-pdd;
+    
+            @media (min-width: $mid-width) {
+                padding: 0 0 40px;
+            }
+    
+                .slick-slider {
+                    .slick-arrow {
+                        &::before {
+                            color: $black;
+                            font-size: 35px;
+                        }
+                    }
+                    .slick-list {
+                        .slick-track {
+                            display: flex;
+                            .slick-slide {
+                                display: flex !important;
+                                justify-content: center;
+                                align-self: center;
+    
+                                .product-slide-card {
+                                    
+                                    a {
+                                        display: flex;
+                                        flex-direction: column;
+                                        .product-img {
+                                            align-self: center;
+                                            width: 125px;
+                                            height: 180px;
+                                            display: flex;
+    
+                                            img {
+                                                height: 150px;
+                                                align-self: center;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+            .product-slide-card {
+    
+                .product-info {
+    
+                    color: $black;
+                    margin-top: 20px;
+    
+                    .product-title {
+    
+                        font-size: 16px;
+                        font-weight: 500;
+                        margin: 0;
+                        line-height: 22px;
+                    }
+                    .product-description {
+                        font-size: 16px;
+                        margin:0;
+    
+                    }
+                    .product-price {
+                        font-size: 22px;
+                        margin: 0;
+                    }
+                }
+            }
+    
+            .slick-dots {
+                bottom: -75px !important;
+            }
+        }
+
+    }
+
+}
